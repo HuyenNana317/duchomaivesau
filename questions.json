@@ -1,0 +1,781 @@
+[
+  {
+    "id": "P01",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường tò mò về những kiến thức hoặc lĩnh vực mới.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P02",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thích thử nghiệm cách làm mới.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P03",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường nghĩ ra nhiều khả năng khi giải quyết vấn đề.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P04",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi lập kế hoạch trước khi bắt đầu việc quan trọng.",
+    "dimension": "conscientiousness"
+  },
+  {
+    "id": "P05",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi cố gắng hoàn thành nhiệm vụ đúng hạn mà không cần nhắc.",
+    "dimension": "conscientiousness"
+  },
+  {
+    "id": "P06",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường để công việc đến sát hạn mới bắt đầu.",
+    "dimension": "conscientiousness",
+    "reverse": true
+  },
+  {
+    "id": "P07",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi hào hứng khi tham gia hoạt động tập thể và gặp người mới.",
+    "dimension": "extraversion"
+  },
+  {
+    "id": "P08",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường chủ động bày tỏ ý kiến trong nhóm.",
+    "dimension": "extraversion"
+  },
+  {
+    "id": "P09",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi cố gắng hiểu quan điểm người khác trước khi phản hồi.",
+    "dimension": "agreeableness"
+  },
+  {
+    "id": "P10",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi sẵn sàng hợp tác và hỗ trợ người khác.",
+    "dimension": "agreeableness"
+  },
+  {
+    "id": "P11",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường lo lắng trước những tình huống chưa biết kết quả.",
+    "dimension": "neuroticism"
+  },
+  {
+    "id": "P12",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Khi gặp thất bại, tâm trạng tôi thường bị ảnh hưởng một thời gian.",
+    "dimension": "neuroticism"
+  },
+  {
+    "id": "I01",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Lắp ráp, sửa chữa hoặc tìm hiểu cách hoạt động của máy móc.",
+    "dimension": "r"
+  },
+  {
+    "id": "I02",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Thực hiện thí nghiệm hoặc giải thích hiện tượng khoa học.",
+    "dimension": "i"
+  },
+  {
+    "id": "I03",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Sáng tạo hình ảnh, video, âm nhạc hoặc sản phẩm nghệ thuật.",
+    "dimension": "a"
+  },
+  {
+    "id": "I04",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Giúp đỡ, hướng dẫn hoặc giải thích kiến thức cho người khác.",
+    "dimension": "s"
+  },
+  {
+    "id": "I05",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Đề xuất ý tưởng, thuyết phục hoặc dẫn dắt dự án.",
+    "dimension": "e"
+  },
+  {
+    "id": "I06",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Sắp xếp dữ liệu, lập kế hoạch và quản lý thông tin.",
+    "dimension": "c"
+  },
+  {
+    "id": "I07",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Tìm hiểu hoặc thử nghiệm sản phẩm công nghệ mới.",
+    "dimension": "i"
+  },
+  {
+    "id": "I08",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Làm việc với thiết bị, công cụ hoặc hoạt động kỹ thuật.",
+    "dimension": "r"
+  },
+  {
+    "id": "I09",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Tổ chức hoạt động cộng đồng có ích cho mọi người.",
+    "dimension": "s"
+  },
+  {
+    "id": "I10",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Xây dựng thương hiệu hoặc dự án kinh doanh.",
+    "dimension": "e"
+  },
+  {
+    "id": "S01",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi phân tích vấn đề phức tạp thành các phần nhỏ.",
+    "dimension": "logic"
+  },
+  {
+    "id": "S02",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi nhận ra mối liên hệ giữa các thông tin.",
+    "dimension": "analysis"
+  },
+  {
+    "id": "S03",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi trình bày ý tưởng để người khác dễ hiểu.",
+    "dimension": "communication"
+  },
+  {
+    "id": "S04",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi lắng nghe và nhận biết khi người khác cần hỗ trợ.",
+    "dimension": "empathy"
+  },
+  {
+    "id": "S05",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi nghĩ ra nhiều ý tưởng khi làm nhiệm vụ sáng tạo.",
+    "dimension": "creativity"
+  },
+  {
+    "id": "S06",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi tự tìm hiểu kiến thức qua sách và tài liệu.",
+    "dimension": "self_learning"
+  },
+  {
+    "id": "S07",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi duy trì tập trung khi làm một nhiệm vụ.",
+    "dimension": "focus"
+  },
+  {
+    "id": "S08",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi phối hợp với nhiều người để đạt mục tiêu chung.",
+    "dimension": "teamwork"
+  },
+  {
+    "id": "S09",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi thích nghi khi kế hoạch thay đổi.",
+    "dimension": "adaptability"
+  },
+  {
+    "id": "S10",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi cân nhắc thông tin trước khi đưa ra lựa chọn.",
+    "dimension": "decision_making"
+  },
+  {
+    "id": "V01",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Khi nghĩ về công việc tương lai, điều nào quan trọng hơn?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thu nhập tốt và cơ hội tài chính.",
+        "tags": [
+          "financial"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Công việc có ý nghĩa và tạo tác động tích cực.",
+        "tags": [
+          "purpose"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V02",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn thích môi trường nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ổn định, có quy trình rõ ràng.",
+        "tags": [
+          "stability"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Linh hoạt, thường xuyên có điều mới.",
+        "tags": [
+          "flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V03",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn phát triển theo hướng nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trở thành chuyên gia giỏi.",
+        "tags": [
+          "expertise"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Trở thành người lãnh đạo đội nhóm.",
+        "tags": [
+          "leadership"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V04",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn ưu tiên điều gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Có thời gian cho gia đình và bản thân.",
+        "tags": [
+          "balance"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Có cơ hội phát triển sự nghiệp mạnh mẽ.",
+        "tags": [
+          "achievement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V05",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn thích kiểu thành quả nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Được công nhận vì thành tích cá nhân.",
+        "tags": [
+          "recognition"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Được ghi nhận vì đóng góp tập thể.",
+        "tags": [
+          "contribution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V06",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Công việc nên mang lại điều gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cơ hội học hỏi liên tục.",
+        "tags": [
+          "learning"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Sự chắc chắn và khả năng dự đoán.",
+        "tags": [
+          "stability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V07",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn quyền chủ động thế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tự quyết định cách thực hiện.",
+        "tags": [
+          "autonomy"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Làm theo định hướng và tiêu chuẩn rõ ràng.",
+        "tags": [
+          "structure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V08",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn điều gì hơn?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đạt thành tựu lớn và thử thách bản thân.",
+        "tags": [
+          "achievement"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Có cuộc sống cân bằng, ít áp lực hơn.",
+        "tags": [
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L01",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn được giao dự án lớn cùng nhóm. Bạn bắt đầu thế nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phân tích yêu cầu trước.",
+        "tags": [
+          "ANALYTICAL",
+          "RESEARCH"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Đưa ra ý tưởng mới và thử nghiệm.",
+        "tags": [
+          "CREATIVE",
+          "EXPERIMENTAL"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Trao đổi và phân chia việc.",
+        "tags": [
+          "SOCIAL",
+          "LEADERSHIP"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Lập kế hoạch và thời hạn.",
+        "tags": [
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L02",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn được mời tham gia cuộc thi ở lĩnh vực mới.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tham gia để trải nghiệm.",
+        "tags": [
+          "EXPERIMENTAL",
+          "ADAPTABILITY"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Tìm hiểu kỹ yêu cầu.",
+        "tags": [
+          "RESEARCH",
+          "ANALYTICAL"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Hỏi người có kinh nghiệm.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Cân nhắc thời gian và kế hoạch.",
+        "tags": [
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L03",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Sản phẩm bạn làm chưa đạt kết quả mong đợi.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phân tích nguyên nhân.",
+        "tags": [
+          "ANALYTICAL",
+          "RESEARCH"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Thử phương pháp khác.",
+        "tags": [
+          "CREATIVE",
+          "EXPERIMENTAL"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Xin phản hồi.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Điều chỉnh kế hoạch.",
+        "tags": [
+          "ORGANIZED",
+          "ADAPTABILITY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L04",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Hai thành viên bất đồng khiến nhóm trì hoãn.",
+    "options": [
+      {
+        "id": "A",
+        "text": "So sánh phương án bằng tiêu chí.",
+        "tags": [
+          "ANALYTICAL"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Kết hợp hai ý tưởng.",
+        "tags": [
+          "CREATIVE"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Lắng nghe và tìm điểm chung.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Thống nhất quyết định để tiếp tục.",
+        "tags": [
+          "LEADERSHIP",
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L05",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có một ngày hoàn toàn tự do.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tìm hiểu kiến thức mới.",
+        "tags": [
+          "RESEARCH"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Sáng tạo sản phẩm cá nhân.",
+        "tags": [
+          "CREATIVE"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Gặp bạn bè hoặc tham gia cộng đồng.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Sắp xếp việc còn dang dở.",
+        "tags": [
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L06",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có cơ hội thử sức trong một dự án nghề nghiệp.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nghiên cứu và phân tích.",
+        "tags": [
+          "RESEARCH",
+          "ANALYTICAL"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Thiết kế ý tưởng mới.",
+        "tags": [
+          "CREATIVE"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Hỗ trợ người dùng.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Điều phối nhóm.",
+        "tags": [
+          "LEADERSHIP",
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L07",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn tiếp cận công nghệ mới nhưng chưa biết sử dụng.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Đọc tài liệu và nguyên lý.",
+        "tags": [
+          "RESEARCH"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Tự thử nghiệm.",
+        "tags": [
+          "EXPERIMENTAL"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Cùng học với người có kinh nghiệm.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Lập lộ trình học.",
+        "tags": [
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L08",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có ba nhiệm vụ cần hoàn thành trong thời gian hạn chế.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ưu tiên việc ảnh hưởng lớn nhất.",
+        "tags": [
+          "ANALYTICAL"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Tìm cách xử lý sáng tạo.",
+        "tags": [
+          "CREATIVE",
+          "ADAPTABILITY"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Nhờ hỗ trợ và phân chia việc.",
+        "tags": [
+          "SOCIAL",
+          "LEADERSHIP"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Lập danh sách ưu tiên.",
+        "tags": [
+          "ORGANIZED"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L09",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Nhóm chưa đồng tình với ý tưởng của bạn.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thu thập dữ liệu giải thích.",
+        "tags": [
+          "ANALYTICAL",
+          "RESEARCH"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Tạo bản thử nghiệm.",
+        "tags": [
+          "CREATIVE",
+          "EXPERIMENTAL"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Lắng nghe và điều chỉnh.",
+        "tags": [
+          "SOCIAL",
+          "ADAPTABILITY"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Thuyết phục nhóm thử nghiệm.",
+        "tags": [
+          "LEADERSHIP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L10",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn muốn được nhớ đến vì điều gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tạo ra giải pháp và khám phá mới.",
+        "tags": [
+          "RESEARCH",
+          "ANALYTICAL"
+        ]
+      },
+      {
+        "id": "B",
+        "text": "Tạo ra sản phẩm độc đáo.",
+        "tags": [
+          "CREATIVE"
+        ]
+      },
+      {
+        "id": "C",
+        "text": "Giúp đỡ và truyền cảm hứng.",
+        "tags": [
+          "SOCIAL"
+        ]
+      },
+      {
+        "id": "D",
+        "text": "Xây dựng dự án có ảnh hưởng.",
+        "tags": [
+          "LEADERSHIP",
+          "ORGANIZED"
+        ]
+      }
+    ]
+  }
+]

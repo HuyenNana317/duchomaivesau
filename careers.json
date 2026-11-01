@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "IT01",
+    "name": "Kỹ sư phần mềm",
+    "english_name": "",
+    "category": "technology",
+    "riasec": [
+      "I",
+      "C",
+      "R"
+    ],
+    "description": "Phát triển, kiểm thử và bảo trì phần mềm.",
+    "responsibilities": [
+      "Lập trình",
+      "kiểm thử",
+      "sửa lỗi"
+    ],
+    "skills": [
+      "Tư duy logic",
+      "Lập trình",
+      "Làm việc nhóm"
+    ],
+    "subjects": [
+      "Tin học",
+      "Toán",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty công nghệ"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần học liên tục"
+    ]
+  },
+  {
+    "id": "IT02",
+    "name": "Chuyên viên an ninh mạng",
+    "english_name": "",
+    "category": "technology",
+    "riasec": [
+      "I",
+      "R",
+      "C"
+    ],
+    "description": "Bảo vệ hệ thống, mạng và dữ liệu số.",
+    "responsibilities": [
+      "Theo dõi cảnh báo",
+      "đánh giá rủi ro",
+      "đề xuất bảo vệ"
+    ],
+    "skills": [
+      "Phân tích",
+      "Mạng máy tính",
+      "Cẩn thận"
+    ],
+    "subjects": [
+      "Tin học",
+      "Toán",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty công nghệ",
+      "ngân hàng"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Công nghệ và rủi ro thay đổi liên tục"
+    ]
+  },
+  {
+    "id": "IT03",
+    "name": "Chuyên viên phân tích dữ liệu",
+    "english_name": "",
+    "category": "technology",
+    "riasec": [
+      "I",
+      "C",
+      "R"
+    ],
+    "description": "Phân tích dữ liệu để hỗ trợ quyết định.",
+    "responsibilities": [
+      "Làm sạch dữ liệu",
+      "phân tích xu hướng",
+      "báo cáo"
+    ],
+    "skills": [
+      "Toán thống kê",
+      "Phân tích",
+      "Trình bày"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "ngân hàng"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Dữ liệu có thể thiếu hoặc sai"
+    ]
+  },
+  {
+    "id": "IT04",
+    "name": "Kỹ sư trí tuệ nhân tạo",
+    "english_name": "",
+    "category": "technology",
+    "riasec": [
+      "I",
+      "R",
+      "I"
+    ],
+    "description": "Xây dựng và tích hợp hệ thống AI.",
+    "responsibilities": [
+      "Chuẩn bị dữ liệu",
+      "đánh giá mô hình",
+      "tích hợp AI"
+    ],
+    "skills": [
+      "Toán",
+      "Lập trình",
+      "Nghiên cứu"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty công nghệ",
+      "phòng nghiên cứu"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần nền tảng toán và lập trình vững"
+    ]
+  },
+  {
+    "id": "IT05",
+    "name": "Kỹ sư mạng máy tính",
+    "english_name": "",
+    "category": "technology",
+    "riasec": [
+      "R",
+      "I",
+      "C"
+    ],
+    "description": "Thiết kế và vận hành hạ tầng mạng.",
+    "responsibilities": [
+      "Cấu hình mạng",
+      "giám sát",
+      "xử lý sự cố"
+    ],
+    "skills": [
+      "Kiến thức mạng",
+      "Giải quyết sự cố"
+    ],
+    "subjects": [
+      "Tin học",
+      "Toán",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "trung tâm dữ liệu"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể xử lý sự cố ngoài giờ"
+    ]
+  },
+  {
+    "id": "EN01",
+    "name": "Kỹ sư tự động hóa",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": [
+      "R",
+      "I",
+      "C"
+    ],
+    "description": "Thiết kế hệ thống điều khiển tự động.",
+    "responsibilities": [
+      "Thiết kế điều khiển",
+      "cảm biến",
+      "kiểm tra dây chuyền"
+    ],
+    "skills": [
+      "Toán và vật lý",
+      "Lập trình điều khiển",
+      "Thực hành"
+    ],
+    "subjects": [
+      "Toán",
+      "Vật lý",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Nhà máy",
+      "công ty kỹ thuật"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần nền tảng kỹ thuật vững"
+    ]
+  },
+  {
+    "id": "EN02",
+    "name": "Kỹ sư robot",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": [
+      "R",
+      "I",
+      "E"
+    ],
+    "description": "Nghiên cứu và tích hợp robot.",
+    "responsibilities": [
+      "Thiết kế cơ cấu",
+      "lập trình",
+      "thử nghiệm"
+    ],
+    "skills": [
+      "Cơ khí",
+      "Điện tử",
+      "Lập trình"
+    ],
+    "subjects": [
+      "Toán",
+      "Vật lý",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Phòng nghiên cứu",
+      "nhà máy"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần phối hợp nhiều chuyên môn"
+    ]
+  },
+  {
+    "id": "EN03",
+    "name": "Kỹ sư điện – điện tử",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": [
+      "R",
+      "I",
+      "C"
+    ],
+    "description": "Thiết kế và kiểm tra hệ thống điện tử.",
+    "responsibilities": [
+      "Thiết kế mạch",
+      "kiểm tra thiết bị",
+      "phân tích lỗi"
+    ],
+    "skills": [
+      "Vật lý",
+      "Toán",
+      "Thực hành"
+    ],
+    "subjects": [
+      "Toán",
+      "Vật lý",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty kỹ thuật",
+      "nhà máy"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Đòi hỏi độ chính xác cao"
+    ]
+  },
+  {
+    "id": "EN04",
+    "name": "Kỹ sư cơ khí",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": [
+      "R",
+      "I",
+      "C"
+    ],
+    "description": "Thiết kế và cải tiến máy móc.",
+    "responsibilities": [
+      "Vẽ kỹ thuật",
+      "tính toán",
+      "giám sát chế tạo"
+    ],
+    "skills": [
+      "Tư duy không gian",
+      "Toán",
+      "Thiết kế"
+    ],
+    "subjects": [
+      "Toán",
+      "Vật lý",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Nhà máy",
+      "công ty thiết kế"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể gắn với môi trường sản xuất"
+    ]
+  },
+  {
+    "id": "EN05",
+    "name": "Kỹ sư xây dựng",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": [
+      "R",
+      "C",
+      "I"
+    ],
+    "description": "Thiết kế và giám sát công trình.",
+    "responsibilities": [
+      "Triển khai bản vẽ",
+      "tính kết cấu",
+      "giám sát"
+    ],
+    "skills": [
+      "Toán",
+      "Tổ chức",
+      "Giải quyết vấn đề"
+    ],
+    "subjects": [
+      "Toán",
+      "Vật lý",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công trường",
+      "công ty tư vấn"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể làm việc ngoài hiện trường"
+    ]
+  },
+  {
+    "id": "CR01",
+    "name": "Nhà thiết kế đồ họa",
+    "english_name": "",
+    "category": "creative",
+    "riasec": [
+      "A",
+      "E",
+      "R"
+    ],
+    "description": "Truyền tải thông điệp bằng hình ảnh.",
+    "responsibilities": [
+      "Thiết kế ấn phẩm",
+      "nhận diện",
+      "chỉnh sửa"
+    ],
+    "skills": [
+      "Thẩm mỹ",
+      "Sáng tạo",
+      "Công cụ thiết kế"
+    ],
+    "subjects": [
+      "Mỹ thuật",
+      "Tin học",
+      "Ngữ văn"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Studio",
+      "công ty truyền thông"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần tiếp nhận phản hồi và deadline"
+    ]
+  },
+  {
+    "id": "CR02",
+    "name": "Nhà thiết kế UI/UX",
+    "english_name": "",
+    "category": "creative",
+    "riasec": [
+      "A",
+      "I",
+      "E"
+    ],
+    "description": "Thiết kế giao diện và trải nghiệm số.",
+    "responsibilities": [
+      "Nghiên cứu người dùng",
+      "thiết kế luồng",
+      "thử nghiệm"
+    ],
+    "skills": [
+      "Tư duy thiết kế",
+      "Thấu hiểu",
+      "Sáng tạo"
+    ],
+    "subjects": [
+      "Tin học",
+      "Mỹ thuật",
+      "Toán"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty công nghệ",
+      "nhóm sản phẩm"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cân bằng thẩm mỹ và tiện dụng"
+    ]
+  },
+  {
+    "id": "CR03",
+    "name": "Nhà sáng tạo nội dung",
+    "english_name": "",
+    "category": "creative",
+    "riasec": [
+      "A",
+      "E",
+      "S"
+    ],
+    "description": "Sản xuất và phát triển nội dung số.",
+    "responsibilities": [
+      "Nghiên cứu",
+      "viết/quay",
+      "theo dõi phản hồi"
+    ],
+    "skills": [
+      "Sáng tạo",
+      "Kể chuyện",
+      "Giao tiếp"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Tin học",
+      "Ngoại ngữ"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Công ty truyền thông",
+      "làm độc lập"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần duy trì chất lượng và cập nhật nền tảng"
+    ]
+  },
+  {
+    "id": "CR04",
+    "name": "Biên tập viên video",
+    "english_name": "",
+    "category": "creative",
+    "riasec": [
+      "A",
+      "R",
+      "I"
+    ],
+    "description": "Kết hợp hình ảnh và âm thanh thành video.",
+    "responsibilities": [
+      "Cắt dựng",
+      "xử lý âm thanh",
+      "phối hợp sản xuất"
+    ],
+    "skills": [
+      "Tư duy hình ảnh",
+      "Kiên nhẫn",
+      "Sáng tạo"
+    ],
+    "subjects": [
+      "Tin học",
+      "Mỹ thuật",
+      "Âm nhạc"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Studio",
+      "đài truyền hình"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể làm việc theo thời hạn gấp"
+    ]
+  },
+  {
+    "id": "CR05",
+    "name": "Biên kịch / Người viết nội dung",
+    "english_name": "",
+    "category": "creative",
+    "riasec": [
+      "A",
+      "I",
+      "E"
+    ],
+    "description": "Phát triển ý tưởng và câu chuyện bằng ngôn ngữ.",
+    "responsibilities": [
+      "Nghiên cứu",
+      "xây dựng cốt truyện",
+      "biên tập"
+    ],
+    "skills": [
+      "Viết lách",
+      "Quan sát",
+      "Sáng tạo"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Lịch sử",
+      "Ngoại ngữ"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Nhà xuất bản",
+      "studio"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần luyện tập và chỉnh sửa nhiều"
+    ]
+  },
+  {
+    "id": "BU01",
+    "name": "Chuyên viên marketing",
+    "english_name": "",
+    "category": "business",
+    "riasec": [
+      "E",
+      "A",
+      "S"
+    ],
+    "description": "Nghiên cứu khách hàng và triển khai tiếp thị.",
+    "responsibilities": [
+      "Nghiên cứu thị trường",
+      "chiến dịch",
+      "đánh giá"
+    ],
+    "skills": [
+      "Giao tiếp",
+      "Phân tích",
+      "Sáng tạo"
+    ],
+    "subjects": [
+      "Toán",
+      "Ngữ văn",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "công ty quảng cáo"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Thị hiếu và xu hướng thay đổi"
+    ]
+  },
+  {
+    "id": "BU02",
+    "name": "Chuyên viên tài chính",
+    "english_name": "",
+    "category": "business",
+    "riasec": [
+      "C",
+      "I",
+      "E"
+    ],
+    "description": "Phân tích thông tin tài chính hỗ trợ quyết định.",
+    "responsibilities": [
+      "Phân tích báo cáo",
+      "mô hình",
+      "ngân sách"
+    ],
+    "skills": [
+      "Toán thống kê",
+      "Phân tích",
+      "Cẩn thận"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Ngân hàng",
+      "doanh nghiệp"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần độ chính xác cao"
+    ]
+  },
+  {
+    "id": "BU03",
+    "name": "Chuyên viên kế toán",
+    "english_name": "",
+    "category": "business",
+    "riasec": [
+      "C",
+      "I",
+      "E"
+    ],
+    "description": "Ghi nhận và báo cáo nghiệp vụ tài chính.",
+    "responsibilities": [
+      "Chứng từ",
+      "đối chiếu",
+      "báo cáo"
+    ],
+    "skills": [
+      "Cẩn thận",
+      "Tổ chức",
+      "Tư duy số liệu"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "đơn vị dịch vụ"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có kỳ báo cáo nhiều việc"
+    ]
+  },
+  {
+    "id": "BU04",
+    "name": "Chuyên viên nhân sự",
+    "english_name": "",
+    "category": "business",
+    "riasec": [
+      "S",
+      "E",
+      "C"
+    ],
+    "description": "Hỗ trợ tuyển dụng và phát triển nhân lực.",
+    "responsibilities": [
+      "Tuyển dụng",
+      "đào tạo",
+      "chính sách"
+    ],
+    "skills": [
+      "Giao tiếp",
+      "Lắng nghe",
+      "Tổ chức"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Tin học",
+      "Pháp luật"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "tổ chức"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Xử lý tình huống nhạy cảm"
+    ]
+  },
+  {
+    "id": "BU05",
+    "name": "Nhà khởi nghiệp",
+    "english_name": "",
+    "category": "business",
+    "riasec": [
+      "E",
+      "A",
+      "I"
+    ],
+    "description": "Khởi tạo và phát triển sản phẩm hoặc doanh nghiệp.",
+    "responsibilities": [
+      "Phát hiện nhu cầu",
+      "mô hình",
+      "thử nghiệm"
+    ],
+    "skills": [
+      "Chủ động",
+      "Giải quyết vấn đề",
+      "Quản lý rủi ro"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Ngữ văn"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp mới"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Rủi ro và bất định cao"
+    ]
+  },
+  {
+    "id": "SO01",
+    "name": "Giáo viên",
+    "english_name": "",
+    "category": "education",
+    "riasec": [
+      "S",
+      "A",
+      "I"
+    ],
+    "description": "Giảng dạy và hỗ trợ sự tiến bộ của người học.",
+    "responsibilities": [
+      "Chuẩn bị bài",
+      "tổ chức dạy",
+      "đánh giá"
+    ],
+    "skills": [
+      "Trình bày",
+      "Kiên nhẫn",
+      "Thấu hiểu"
+    ],
+    "subjects": [
+      "Môn chuyên môn",
+      "Ngữ văn",
+      "Ngoại ngữ"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Trường học",
+      "trung tâm"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần chuẩn bị và đánh giá thường xuyên"
+    ]
+  },
+  {
+    "id": "SO02",
+    "name": "Chuyên viên tâm lý",
+    "english_name": "",
+    "category": "education",
+    "riasec": [
+      "S",
+      "I",
+      "A"
+    ],
+    "description": "Hỗ trợ nhu cầu tâm lý trong phạm vi chuyên môn.",
+    "responsibilities": [
+      "Lắng nghe",
+      "đánh giá phù hợp",
+      "đề xuất hỗ trợ"
+    ],
+    "skills": [
+      "Lắng nghe",
+      "Đạo đức",
+      "Quan sát"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Ngữ văn",
+      "Pháp luật"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Cơ sở giáo dục",
+      "cơ sở chuyên môn"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần đào tạo bài bản và giám sát"
+    ]
+  },
+  {
+    "id": "SO03",
+    "name": "Nhân viên công tác xã hội",
+    "english_name": "",
+    "category": "education",
+    "riasec": [
+      "S",
+      "A",
+      "I"
+    ],
+    "description": "Kết nối cá nhân và cộng đồng với nguồn lực hỗ trợ.",
+    "responsibilities": [
+      "Đánh giá nhu cầu",
+      "kết nối dịch vụ",
+      "hỗ trợ cộng đồng"
+    ],
+    "skills": [
+      "Thấu cảm",
+      "Giao tiếp",
+      "Giải quyết vấn đề"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Pháp luật"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Tổ chức xã hội",
+      "cơ sở cộng đồng"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể gặp hoàn cảnh phức tạp"
+    ]
+  },
+  {
+    "id": "SO04",
+    "name": "Chuyên viên đào tạo",
+    "english_name": "",
+    "category": "education",
+    "riasec": [
+      "S",
+      "E",
+      "I"
+    ],
+    "description": "Thiết kế chương trình phát triển năng lực.",
+    "responsibilities": [
+      "Khảo sát nhu cầu",
+      "thiết kế nội dung",
+      "đánh giá"
+    ],
+    "skills": [
+      "Giao tiếp",
+      "Thiết kế học liệu",
+      "Tổ chức"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Tin học",
+      "Ngoại ngữ"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "trung tâm đào tạo"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần đánh giá hiệu quả chương trình"
+    ]
+  },
+  {
+    "id": "SO05",
+    "name": "Chuyên viên tư vấn hướng nghiệp",
+    "english_name": "",
+    "category": "education",
+    "riasec": [
+      "S",
+      "I",
+      "E"
+    ],
+    "description": "Hỗ trợ người học khám phá và tìm hiểu nghề.",
+    "responsibilities": [
+      "Trao đổi mục tiêu",
+      "cung cấp thông tin",
+      "lập kế hoạch"
+    ],
+    "skills": [
+      "Lắng nghe",
+      "Tổng hợp thông tin",
+      "Giao tiếp"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Pháp luật",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Trường học",
+      "trung tâm hướng nghiệp"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Không quyết định thay người được tư vấn"
+    ]
+  },
+  {
+    "id": "HE01",
+    "name": "Bác sĩ",
+    "english_name": "",
+    "category": "health",
+    "riasec": [
+      "I",
+      "S",
+      "R"
+    ],
+    "description": "Khám, chẩn đoán và điều trị bệnh.",
+    "responsibilities": [
+      "Khám bệnh",
+      "chỉ định điều trị",
+      "theo dõi"
+    ],
+    "skills": [
+      "Kiến thức y học",
+      "Phân tích",
+      "Giao tiếp"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Hóa học",
+      "Toán"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Bệnh viện",
+      "phòng khám"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Đào tạo dài và trách nhiệm chuyên môn cao"
+    ]
+  },
+  {
+    "id": "HE02",
+    "name": "Điều dưỡng",
+    "english_name": "",
+    "category": "health",
+    "riasec": [
+      "S",
+      "I",
+      "R"
+    ],
+    "description": "Chăm sóc và theo dõi người bệnh.",
+    "responsibilities": [
+      "Theo dõi sức khỏe",
+      "chăm sóc",
+      "hướng dẫn"
+    ],
+    "skills": [
+      "Thấu cảm",
+      "Cẩn thận",
+      "Làm việc nhóm"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Hóa học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Bệnh viện",
+      "phòng khám"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể làm việc theo ca"
+    ]
+  },
+  {
+    "id": "HE03",
+    "name": "Dược sĩ",
+    "english_name": "",
+    "category": "health",
+    "riasec": [
+      "I",
+      "C",
+      "R"
+    ],
+    "description": "Tham gia cung ứng và tư vấn sử dụng thuốc an toàn.",
+    "responsibilities": [
+      "Kiểm tra thông tin thuốc",
+      "tư vấn",
+      "quản lý chất lượng"
+    ],
+    "skills": [
+      "Hóa – sinh",
+      "Cẩn thận",
+      "Giao tiếp"
+    ],
+    "subjects": [
+      "Hóa học",
+      "Sinh học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Nhà thuốc",
+      "bệnh viện",
+      "công ty dược"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần cập nhật kiến thức và quy định"
+    ]
+  },
+  {
+    "id": "HE04",
+    "name": "Kỹ thuật viên xét nghiệm y học",
+    "english_name": "",
+    "category": "health",
+    "riasec": [
+      "I",
+      "R",
+      "C"
+    ],
+    "description": "Thực hiện xét nghiệm hỗ trợ chẩn đoán.",
+    "responsibilities": [
+      "Xử lý mẫu",
+      "vận hành thiết bị",
+      "kiểm soát chất lượng"
+    ],
+    "skills": [
+      "Cẩn thận",
+      "Sinh học",
+      "Quy trình"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Hóa học",
+      "Toán"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Bệnh viện",
+      "phòng xét nghiệm"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Đòi hỏi tập trung và tuân thủ quy trình"
+    ]
+  },
+  {
+    "id": "HE05",
+    "name": "Chuyên viên vật lý trị liệu",
+    "english_name": "",
+    "category": "health",
+    "riasec": [
+      "S",
+      "I",
+      "R"
+    ],
+    "description": "Hỗ trợ cải thiện vận động và chức năng.",
+    "responsibilities": [
+      "Đánh giá vận động",
+      "lập kế hoạch",
+      "hướng dẫn tập"
+    ],
+    "skills": [
+      "Kiến thức cơ thể",
+      "Giao tiếp",
+      "Kiên nhẫn"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Vật lý"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Bệnh viện",
+      "trung tâm phục hồi"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần kiên trì và thực hành chuyên môn"
+    ]
+  },
+  {
+    "id": "SC01",
+    "name": "Nhà nghiên cứu sinh học",
+    "english_name": "",
+    "category": "science",
+    "riasec": [
+      "I",
+      "R",
+      "I"
+    ],
+    "description": "Nghiên cứu sinh vật và hệ thống sống.",
+    "responsibilities": [
+      "Thiết kế nghiên cứu",
+      "phân tích mẫu",
+      "báo cáo"
+    ],
+    "skills": [
+      "Quan sát",
+      "Phân tích",
+      "Kiên trì"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Hóa học",
+      "Toán"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Phòng thí nghiệm",
+      "viện nghiên cứu"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Nghiên cứu có thể kéo dài"
+    ]
+  },
+  {
+    "id": "SC02",
+    "name": "Nhà nghiên cứu hóa học",
+    "english_name": "",
+    "category": "science",
+    "riasec": [
+      "I",
+      "R",
+      "I"
+    ],
+    "description": "Nghiên cứu thành phần và biến đổi của chất.",
+    "responsibilities": [
+      "Thiết kế thí nghiệm",
+      "phân tích",
+      "kiểm tra vật liệu"
+    ],
+    "skills": [
+      "Tư duy khoa học",
+      "Cẩn thận",
+      "Phân tích"
+    ],
+    "subjects": [
+      "Hóa học",
+      "Toán",
+      "Vật lý"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Phòng thí nghiệm",
+      "doanh nghiệp"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần tuân thủ an toàn phòng thí nghiệm"
+    ]
+  },
+  {
+    "id": "SC03",
+    "name": "Nhà khoa học môi trường",
+    "english_name": "",
+    "category": "science",
+    "riasec": [
+      "I",
+      "R",
+      "I"
+    ],
+    "description": "Nghiên cứu vấn đề môi trường và tài nguyên.",
+    "responsibilities": [
+      "Thu thập dữ liệu",
+      "đánh giá tác động",
+      "đề xuất giải pháp"
+    ],
+    "skills": [
+      "Nghiên cứu",
+      "Phân tích",
+      "Quan sát"
+    ],
+    "subjects": [
+      "Sinh học",
+      "Hóa học",
+      "Địa lý"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Viện nghiên cứu",
+      "tổ chức môi trường"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Có thể làm việc ngoài hiện trường"
+    ]
+  },
+  {
+    "id": "SC04",
+    "name": "Nhà vật lý học",
+    "english_name": "",
+    "category": "science",
+    "riasec": [
+      "I",
+      "R",
+      "I"
+    ],
+    "description": "Nghiên cứu vật chất, năng lượng và quy luật tự nhiên.",
+    "responsibilities": [
+      "Mô hình hóa",
+      "thí nghiệm",
+      "phân tích"
+    ],
+    "skills": [
+      "Toán học",
+      "Tư duy trừu tượng",
+      "Nghiên cứu"
+    ],
+    "subjects": [
+      "Vật lý",
+      "Toán",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Đại học",
+      "viện nghiên cứu"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Đòi hỏi nền tảng toán học cao"
+    ]
+  },
+  {
+    "id": "SC05",
+    "name": "Nhà khoa học dữ liệu nghiên cứu",
+    "english_name": "",
+    "category": "science",
+    "riasec": [
+      "I",
+      "C",
+      "R"
+    ],
+    "description": "Phân tích dữ liệu phục vụ câu hỏi nghiên cứu.",
+    "responsibilities": [
+      "Xử lý dữ liệu",
+      "mô hình thống kê",
+      "trình bày"
+    ],
+    "skills": [
+      "Toán thống kê",
+      "Lập trình",
+      "Phản biện"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Viện nghiên cứu",
+      "đại học"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần kiểm tra sai lệch dữ liệu"
+    ]
+  },
+  {
+    "id": "SV01",
+    "name": "Luật sư",
+    "english_name": "",
+    "category": "services",
+    "riasec": [
+      "E",
+      "S",
+      "I"
+    ],
+    "description": "Tư vấn pháp luật và bảo vệ quyền lợi hợp pháp.",
+    "responsibilities": [
+      "Nghiên cứu hồ sơ",
+      "tư vấn",
+      "giải quyết tranh chấp"
+    ],
+    "skills": [
+      "Lập luận",
+      "Đọc hiểu",
+      "Giao tiếp"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Lịch sử",
+      "Pháp luật"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Văn phòng luật",
+      "doanh nghiệp"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần đáp ứng điều kiện hành nghề"
+    ]
+  },
+  {
+    "id": "SV02",
+    "name": "Chuyên viên pháp chế",
+    "english_name": "",
+    "category": "services",
+    "riasec": [
+      "C",
+      "I",
+      "E"
+    ],
+    "description": "Hỗ trợ tổ chức tuân thủ quy định pháp luật.",
+    "responsibilities": [
+      "Rà soát hợp đồng",
+      "theo dõi quy định",
+      "tư vấn nội bộ"
+    ],
+    "skills": [
+      "Đọc hiểu",
+      "Cẩn thận",
+      "Phân tích"
+    ],
+    "subjects": [
+      "Ngữ văn",
+      "Pháp luật"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp",
+      "ngân hàng"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần cập nhật quy định"
+    ]
+  },
+  {
+    "id": "SV03",
+    "name": "Chuyên viên logistics",
+    "english_name": "",
+    "category": "services",
+    "riasec": [
+      "C",
+      "S",
+      "E"
+    ],
+    "description": "Điều phối lưu kho, vận chuyển và chuỗi cung ứng.",
+    "responsibilities": [
+      "Theo dõi đơn hàng",
+      "điều phối",
+      "quản lý tồn kho"
+    ],
+    "skills": [
+      "Tổ chức",
+      "Giao tiếp",
+      "Phân tích"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Tiếng Anh"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Xuất nhập khẩu",
+      "vận tải"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cần xử lý phát sinh"
+    ]
+  },
+  {
+    "id": "SV04",
+    "name": "Chuyên viên quản lý dự án",
+    "english_name": "",
+    "category": "services",
+    "riasec": [
+      "E",
+      "C",
+      "S"
+    ],
+    "description": "Lập kế hoạch và điều phối nguồn lực dự án.",
+    "responsibilities": [
+      "Tiến độ",
+      "phối hợp nhóm",
+      "theo dõi rủi ro"
+    ],
+    "skills": [
+      "Tổ chức",
+      "Giao tiếp",
+      "Lãnh đạo"
+    ],
+    "subjects": [
+      "Toán",
+      "Tin học",
+      "Ngữ văn"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp nhiều lĩnh vực"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Cân bằng nhiều yêu cầu"
+    ]
+  },
+  {
+    "id": "SV05",
+    "name": "Chuyên viên quản trị du lịch",
+    "english_name": "",
+    "category": "services",
+    "riasec": [
+      "E",
+      "S",
+      "A"
+    ],
+    "description": "Tổ chức và vận hành dịch vụ du lịch.",
+    "responsibilities": [
+      "Thiết kế dịch vụ",
+      "điều phối",
+      "xử lý phản hồi"
+    ],
+    "skills": [
+      "Giao tiếp",
+      "Ngoại ngữ",
+      "Linh hoạt"
+    ],
+    "subjects": [
+      "Địa lý",
+      "Ngoại ngữ",
+      "Tin học"
+    ],
+    "education": [
+      "Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."
+    ],
+    "environment": [
+      "Doanh nghiệp du lịch",
+      "khách sạn"
+    ],
+    "advantages": [
+      "Có cơ hội phát triển chuyên môn",
+      "Có thể tiếp tục học hỏi và mở rộng kỹ năng"
+    ],
+    "challenges": [
+      "Nhu cầu có thể biến động theo mùa"
+    ]
+  }
+]
