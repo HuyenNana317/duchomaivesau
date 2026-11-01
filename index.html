@@ -1,13 +1,1923 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090d1a"><meta name="description" content="Khám phá bản thân và những hướng nghề nghiệp có thể phù hợp."><title>30 YEARS LATER — Khám phá tương lai</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script></head><body><div class="glow g1"></div><div class="glow g2"></div>
-<header class="topbar"><a class="brand" href="#" data-go="home"><b class="logo">30</b> YEARS <strong>LATER</strong></a><nav><button data-go="home">Trang chủ</button><button data-go="about">Về dự án</button><button data-go="library">Thư viện nghề</button><button data-go="results" id="navResultsBtn" class="nav-results" style="display:none;color:var(--lav);font-weight:600;">✧ Kết quả của tôi</button></nav><div class="topbar-actions"><button id="topbarResultsBtn" class="btn small ghost" data-go="results" style="display:none;">✧ Xem kết quả</button><button class="btn small" data-action="start" id="topbarStartBtn">Bắt đầu ↗</button></div></header>
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d1a">
+<meta name="description" content="Khám phá bản thân và những hướng nghề nghiệp có thể phù hợp.">
+<title>30 YEARS LATER — Khám phá tương lai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<style>
+:root{--bg:#090d1a;--panel:#121d32;--panel2:#17243f;--iris:#7566d9;--lav:#a6a0ff;--ice:#b5e7f5;--text:#f3f5fc;--muted:#a7b1c6;--line:#ffffff1c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.7 'Be Vietnam Pro',system-ui,sans-serif;overflow-x:hidden}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,calc(100% - 42px));margin:auto}.narrow{max-width:760px}.glow{position:fixed;z-index:-1;width:400px;height:400px;border-radius:50%;filter:blur(110px);opacity:.2;pointer-events:none}.g1{background:#6957d6;top:-180px;left:-170px}.g2{background:#167d9b;right:-180px;top:45%}.topbar{height:76px;position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:0 max(22px,calc((100% - 1160px)/2));background:#090d1adf;backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:9px;letter-spacing:2px;font-size:11px;color:white;text-decoration:none}.brand strong{color:var(--ice)}.logo{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--iris),#3e9db5);font-size:13px}.topbar nav{display:flex;gap:25px}.topbar nav button,.textbtn{background:none;border:0;color:var(--muted);font-size:12px}.topbar nav button:hover,.textbtn:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:12px 18px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;color:white;font-size:12px;font-weight:600;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#a6a0ff77}.btn.primary{background:linear-gradient(120deg,#7566d9,#4d80c9);border:0;box-shadow:0 10px 25px #5d57bd33}.btn.ghost{background:#ffffff05}.btn.light{background:#f2f3ff;color:#15192c}.btn.small{padding:9px 14px}.screen{display:none;min-height:65vh;animation:appear .35s ease}.screen.active{display:block}@keyframes appear{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}.hero{min-height:570px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px;padding-block:65px 45px}.eyebrow{display:block;color:var(--ice);font-size:9px;font-weight:700;letter-spacing:2px;margin-bottom:15px}.hero h1,.page-head h1,.narrow h1,.analyze h1{font-size:clamp(42px,6vw,70px);line-height:1.14;letter-spacing:-2.5px;margin:0 0 20px}.hero h1 em,.page-head h1 em,.narrow h1 em,.analyze h1 em,.section-head h2 em,.letter h1 em{font-style:normal;background:linear-gradient(100deg,var(--ice),var(--lav),#d4b9ff);background-clip:text;color:transparent}.lead{max-width:550px;color:#b5bfd2;font-size:15px;line-height:1.9}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:27px}.meta{margin-top:30px;color:#8793aa;font-size:10px}.portal{height:420px;position:relative;display:grid;place-items:center}.portal:before{content:'';width:250px;height:330px;border-radius:50%;border:1px solid #a6a0ff88;background:radial-gradient(ellipse,#7666d944,transparent 70%);box-shadow:0 0 65px #7666d944,inset 0 0 45px #8f83ff22;transform:rotate(8deg)}.ring{position:absolute;border:1px solid #a6a0ff38;border-radius:50%;width:390px;height:390px;transform:scaleY(.5) rotate(-25deg)}.ring.r2{width:460px;height:460px;transform:scaleY(.42) rotate(35deg);border-color:#b5e7f526}.portal-core{position:absolute;text-align:center;letter-spacing:4px;color:#c8c9ff}.portal-core b{display:block;font-size:27px;color:white}.portal-core small{font-size:9px}.float{position:absolute;padding:10px 15px;background:#192540dd;border:1px solid var(--line);border-radius:12px;backdrop-filter:blur(12px);font-size:11px}.f1{top:55px;right:0}.f2{bottom:55px;left:0}.strip{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);padding:22px 0}.strip>div{display:flex;gap:14px;align-items:center;padding-left:25px;border-right:1px solid var(--line)}.strip>div:first-child{padding-left:0}.strip>div:last-child{border:0}.strip b{font-size:20px;color:var(--lav);font-weight:400}.strip strong,.strip small{display:block}.strip strong{font-size:11px}.strip small{font-size:9px;color:var(--muted)}.section{padding-block:85px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}.section-head h2{font-size:clamp(30px,4vw,45px);line-height:1.2;letter-spacing:-1px;margin:0}.section-head>p{max-width:340px;color:var(--muted);font-size:11px}.chapters{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.chapters article,.info-grid article{padding:20px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,#ffffff0a,#ffffff02);min-height:205px;transition:.2s}.chapters article:hover,.info-grid article:hover{transform:translateY(-4px);border-color:#a6a0ff66}.chapters small{font-size:8px;letter-spacing:1px;color:#9ca8c0}.chapters i,.info-grid i{display:block;font-size:28px;color:var(--lav);font-style:normal;margin:22px 0 10px}.chapters h3,.info-grid h3{font-size:14px;margin:0 0 7px}.chapters p,.info-grid p{font-size:10px;color:var(--muted);margin:0;line-height:1.8}.callout{margin:0 auto 85px;padding:38px 42px;border:1px solid #a6a0ff44;border-radius:22px;background:radial-gradient(circle at 80% 20%,#7165c044,transparent 38%),linear-gradient(120deg,#17243f,#11172b);display:flex;align-items:center;justify-content:space-between}.callout h2,.roadmap h2{font-size:clamp(28px,4vw,42px);line-height:1.2;margin:0}.callout p{color:var(--muted);font-size:11px}.page-head{padding:75px 0 35px}.page-head h1{font-size:clamp(40px,5vw,60px)}.page-head p,.muted{color:var(--muted);font-size:12px;max-width:650px}.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.info-grid article{min-height:190px}.info-grid i{margin:0 0 12px}.notice{margin:25px 0 80px;padding:20px;border:1px solid #b5e7f533;border-radius:15px;background:#b5e7f50a}.notice p{color:var(--muted);font-size:11px;margin-bottom:0}.narrow{padding-block:55px 85px}.narrow h1{font-size:48px}.panel{background:#121d32bd;border:1px solid var(--line);border-radius:20px;padding:28px;margin-top:25px;box-shadow:0 20px 60px #0003}label{display:block;font-size:11px;font-weight:600;margin-bottom:17px}label small{font-size:9px;color:#8996af;font-weight:400;margin-left:8px}input,select,textarea{width:100%;margin-top:8px;padding:12px 13px;border-radius:10px;border:1px solid #ffffff22;background:#0b1222;color:white;font-size:11px;outline:none}input:focus,select:focus,textarea:focus{border-color:#a6a0ff99}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.chip{border:1px solid var(--line);background:#ffffff06;color:#c3cbdb;border-radius:25px;padding:7px 11px;font-size:10px}.chip.selected{background:#7566d933;border-color:var(--lav);color:white}.privacy,.fine{font-size:9px;color:#8d9ab1;line-height:1.8}.form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}.quiz{padding-block:25px 80px}.quiz-top{display:flex;justify-content:space-between;align-items:center;color:#8995ac;font-size:10px;letter-spacing:1px}.progress{height:5px;background:#ffffff16;border-radius:8px;overflow:hidden;margin:14px 0 35px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--iris),var(--ice));transition:width .25s}.quiz-layout{display:grid;grid-template-columns:220px 1fr;gap:45px;max-width:1000px;margin:auto}.quiz-layout aside{padding-top:18px}.quiz-layout aside h2{font-size:25px;margin:0}.quiz-layout aside p{color:var(--muted);font-size:11px}.dots{display:flex;gap:5px;margin-top:22px}.dots span{height:4px;flex:1;border-radius:5px;background:#ffffff1a}.dots span.done{background:var(--lav)}.aside-note{border-left:2px solid var(--iris);padding:10px 12px;margin-top:35px;font-size:10px!important;line-height:1.8}.question{margin:0;padding:30px;min-height:410px}.question h2{font-size:22px;line-height:1.5;margin:12px 0}.question .eyebrow{margin-bottom:5px}.options{display:grid;gap:9px;margin-top:20px}.option{width:100%;display:flex;align-items:center;gap:12px;text-align:left;background:#ffffff05;border:1px solid var(--line);border-radius:11px;padding:12px;color:#edf0f8;font-size:11px}.option:hover,.option.selected{border-color:#a6a0ff88;background:#7566d922}.key{width:27px;height:27px;display:grid;place-items:center;background:#ffffff0d;border-radius:8px;flex:none}.option.selected .key{background:var(--iris)}.quiz-actions{display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:18px;margin-top:25px}.quiz-actions small{font-size:9px;color:#8793aa}.btn:disabled{opacity:.4;cursor:not-allowed;transform:none}.analyze{text-align:center;padding:100px 20px;max-width:650px}.orb{width:115px;height:115px;border:1px solid #a6a0ff99;border-radius:50%;display:grid;place-items:center;margin:0 auto 30px;color:var(--ice);font-size:30px;box-shadow:0 0 60px #7566d955;animation:pulse 1.5s infinite alternate}@keyframes pulse{to{transform:scale(1.06)}}.analyze h1{font-size:45px}.analyze p{color:var(--muted);font-size:12px}.analyze .progress{max-width:400px;margin:25px auto}.results{padding-block:60px 90px}.result-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:25px}.result-head h1{font-size:30px;margin:0}.banner{display:flex;align-items:center;gap:18px;padding:25px;border:1px solid #a6a0ff44;border-radius:18px;background:radial-gradient(circle at 80% 20%,#7566d933,transparent 40%),#17243f;margin-bottom:16px}.avatar{width:60px;height:60px;border-radius:18px;background:linear-gradient(135deg,#7566d9,#4e9ab4);display:grid;place-items:center;font-size:28px}.banner .eyebrow{margin:0 0 3px}.banner h2{font-size:22px;margin:0}.banner p{font-size:10px;color:var(--muted);margin:3px 0 0}.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.result-card{border:1px solid var(--line);border-radius:16px;background:#ffffff05;padding:22px;min-width:0}.result-card.wide{grid-column:span 2}.result-card h3{font-size:14px;margin:0 0 16px}.result-card .eyebrow{margin:0 0 5px;font-size:8px}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:15px 22px}.metric-label{display:flex;justify-content:space-between;font-size:9px;margin-bottom:6px}.metric-label span:last-child{color:var(--ice)}.metric-track{height:6px;background:#ffffff15;border-radius:10px;overflow:hidden}.metric-track span{height:100%;display:block;background:linear-gradient(90deg,var(--iris),var(--ice));border-radius:10px}.interest{display:flex;align-items:center;gap:10px;margin:11px 0}.interest b{width:28px;height:28px;border-radius:8px;background:#7566d933;display:grid;place-items:center;color:#d4d0ff}.interest strong,.interest small{display:block}.interest strong{font-size:10px}.interest small{font-size:8px;color:var(--muted)}.interest em{font-style:normal;margin-left:auto;color:var(--ice);font-size:9px}.tags{display:flex;gap:7px;flex-wrap:wrap}.tag{font-size:9px;padding:7px 10px;border:1px solid #a6a0ff33;background:#7566d91d;border-radius:9px;color:#d8d5ff}.section-head{margin-bottom:22px}.career-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.career-card{display:flex;flex-direction:column;min-height:220px;padding:18px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,#17243f99,#111a2d99);transition:.2s}.career-card:hover{transform:translateY(-3px);border-color:#a6a0ff77}.career-card .top{display:flex;justify-content:space-between;font-size:8px;color:#9eabc3}.career-card .score{color:var(--ice)}.career-card h3{font-size:14px;margin:16px 0 6px}.career-card p{font-size:9px;color:var(--muted);line-height:1.8;margin:0 0 12px}.career-card .codes{display:flex;gap:5px;flex-wrap:wrap;margin-top:auto}.career-card .codes span{font-size:8px;padding:4px 6px;background:#ffffff0c;border-radius:5px;color:#bbc5d8}.career-card button{align-self:flex-start;margin-top:13px;border:0;background:none;color:#c6c0ff;font-size:10px;padding:0}.roadmap{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:28px;border:1px solid #b5e7f533;border-radius:18px;background:#17243f;margin-top:35px}.roadmap h2{font-size:30px}.roadmap p{font-size:10px;color:var(--muted)}.roadmap ol{padding:0;margin:0;list-style:none}.roadmap li{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--line)}.roadmap li b{color:var(--lav);font-size:17px;font-weight:400}.roadmap strong,.roadmap small{display:block}.roadmap strong{font-size:10px}.roadmap small{font-size:9px;color:var(--muted)}.disclaimer{font-size:9px;color:#8290a8;line-height:1.8;margin-top:22px}.library-tools{display:grid;grid-template-columns:1fr 250px;gap:12px}.library-tools input,.library-tools select{margin:0}.page-head{padding:70px 0 30px}.letter-wrap{padding-block:65px 90px}.letter{max-width:760px;margin:auto;padding:50px 55px;border:1px solid #a6a0ff44;border-radius:22px;background:radial-gradient(circle at 90% 5%,#7566d933,transparent 30%),#17243f}.letter h1{font-size:42px;line-height:1.2;margin:0}.star{font-size:30px;color:var(--ice);margin:25px 0}.letter-text{font-size:12px;line-height:2;color:#c2cada}.signature{text-align:right;color:var(--ice);font-size:11px;margin-top:24px}#detail{padding-block:35px 80px}.detail-head{padding:40px 0 25px}.detail-head h1{font-size:38px;margin:8px 0}.detail-head p{color:var(--muted);font-size:12px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.detail-block{padding:20px;border:1px solid var(--line);border-radius:14px;background:#ffffff05}.detail-block h3{font-size:12px;margin:0 0 10px}.detail-block ul{padding-left:18px;margin:0;color:var(--muted);font-size:10px;line-height:2}.footer{border-top:1px solid var(--line);padding:23px 0;display:flex;justify-content:space-between;align-items:center;gap:15px;color:#8490a8;font-size:9px}#toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;padding:10px 15px;border:1px solid #a6a0ff66;border-radius:10px;background:#17243f;color:white;font-size:10px;z-index:99;transition:.2s}#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:850px){.hero{grid-template-columns:1fr .75fr}.chapters{grid-template-columns:repeat(3,1fr)}.quiz-layout{grid-template-columns:170px 1fr;gap:20px}.career-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.wrap{width:calc(100% - 30px)}.topbar{height:64px;padding:0 14px}.topbar nav{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.hero h1{font-size:47px}.portal{height:290px;transform:scale(.8);margin-top:-15px}.strip{grid-template-columns:1fr;gap:13px}.strip>div{padding:0;border:0}.section{padding-block:60px}.section-head{display:block}.chapters{grid-template-columns:1fr 1fr}.chapters article{min-height:180px;padding:15px}.callout{display:block;padding:25px;margin-bottom:55px}.callout .btn{margin-top:12px}.info-grid{grid-template-columns:1fr}.two{grid-template-columns:1fr;gap:0}.panel{padding:20px}.quiz-layout{grid-template-columns:1fr;gap:12px}.quiz-layout aside{padding:0}.quiz-layout aside h2{font-size:19px}.aside-note{display:none}.question{padding:20px 16px}.question h2{font-size:19px}.quiz-actions{gap:4px}.quiz-actions .btn{padding:9px;font-size:10px}.quiz-actions small{display:none}.result-head{display:block}.result-head .btn{margin-top:12px}.result-head h1{font-size:25px}.result-grid{grid-template-columns:1fr}.result-card.wide{grid-column:auto}.metrics{grid-template-columns:1fr}.career-grid{grid-template-columns:1fr}.roadmap{grid-template-columns:1fr;padding:20px}.library-tools{grid-template-columns:1fr}.detail-grid{grid-template-columns:1fr}.letter{padding:30px 22px}.letter h1{font-size:33px}.footer{flex-wrap:wrap}.footer span{width:100%;order:3}.analyze h1{font-size:38px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}@media print{body{background:white;color:#111}.topbar,footer,.glow,.actions,.btn{display:none!important}.screen{display:none!important}#results.screen.active,#letter.screen.active{display:block!important}.result-card,.banner,.roadmap,.letter,.career-card,.detail-block{background:white!important;color:#111;border:1px solid #aaa;break-inside:avoid}.muted,.fine,.disclaimer,.career-card p{color:#444}.letter-text{color:#222}}
+
+.visual-intro{padding:28px 0 20px}.visual-intro h2{font-size:clamp(25px,3vw,34px);margin:0;letter-spacing:-.8px}.visual-intro h2 em{font-style:normal;color:var(--lav)}.visual-intro p{font-size:11px;color:var(--muted);margin:7px 0 0}.visual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.chart-card{position:relative;overflow:hidden;min-height:300px;background:linear-gradient(145deg,rgba(28,39,66,.82),rgba(14,22,39,.86));border-color:#ffffff20}.chart-card:after{content:"";position:absolute;inset:auto -60px -110px auto;width:190px;height:190px;border-radius:50%;background:#7666d922;filter:blur(45px);pointer-events:none}.card-topline{display:flex;justify-content:space-between;align-items:center}.chart-pill{font-size:8px;letter-spacing:1px;color:#c6c0ff;border:1px solid #a69cff55;border-radius:20px;padding:5px 9px}.chart-card h3{font-size:15px;margin:4px 0}.chart-sub{font-size:9px;color:#98a5bd;margin:0 0 10px}.chart-wrap{position:relative;width:100%;z-index:1}.radar-wrap{height:245px;max-width:490px;margin:0 auto}.bar-wrap{height:235px;margin-top:12px}.chart-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:8px}.chart-legend span{font-size:8px;color:#b9c4d8;display:flex;align-items:center;gap:5px}.chart-legend b{color:var(--ice);font-weight:600}.legend-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a69cff}.dot-1{background:#8d9df4}.dot-2{background:#79b9df}.dot-3{background:#70c9ce}.dot-4{background:#d69bc8}.compact-legend{display:grid;grid-template-columns:repeat(3,1fr)}.compact-legend span{gap:4px}.compact-legend span b{display:inline-grid;place-items:center;width:17px;height:17px;border-radius:5px;background:#7566d933;color:#d7d1ff}.compact-legend em{font-style:normal;color:var(--ice);margin-left:auto}.value-visual{display:grid;gap:17px;padding:15px 0}.value-row{display:flex;align-items:center;gap:12px}.value-rank{font-size:17px;color:#a6a0ff;font-weight:300}.value-main{flex:1;min-width:0}.value-main strong{font-size:10px;font-weight:500}.value-track{height:6px;background:#ffffff13;border-radius:9px;margin-top:7px;overflow:hidden}.value-track i{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,#7566d9,#b5e7f5)}.value-row>b{font-size:10px;color:var(--ice)}.symbol-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:20px}.symbol-item{display:grid;grid-template-columns:36px 1fr;align-items:center;column-gap:9px;padding:12px;border:1px solid #ffffff15;border-radius:12px;background:#ffffff06}.symbol-item span{grid-row:span 2;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:20px;color:#c6bdff;background:#7566d933}.symbol-item strong{font-size:10px}.symbol-item small{font-size:8px;color:#94a2ba}.archetype-card{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:300px;background:radial-gradient(circle at center,#7566d933,transparent 58%),linear-gradient(145deg,#202847,#111a2d)}.archetype-card .eyebrow{align-self:flex-start}.archetype-symbol{width:112px;height:112px;display:grid;place-items:center;border:1px solid #b5aaff99;border-radius:36px;transform:rotate(45deg);font-size:48px;color:#d7d1ff;background:linear-gradient(135deg,#7566d955,#b5e7f51a);box-shadow:0 0 55px #7566d944;margin:18px 0 25px}.symbol-inner{display:inline-block;transform:rotate(-45deg);line-height:1}.archetype-card h3{font-size:18px;margin:0}.archetype-card>p{font-size:11px;color:var(--ice);margin:4px 0}.archetype-orbit{position:absolute;top:50%;left:50%;width:205px;height:205px;border:1px solid #a6a0ff28;border-radius:50%;pointer-events:none}.orbit-one{transform:translate(-50%,-50%) scaleY(.42) rotate(35deg)}.orbit-two{transform:translate(-50%,-50%) scaleY(.42) rotate(-35deg)}
+.quiz-shortcuts{margin-top:16px;padding-top:12px;border-top:1px dashed #ffffff18;color:#a5b6ce;font-size:11px;text-align:center}
+.quiz-shortcuts b{color:var(--ice);background:#ffffff12;padding:2px 6px;border-radius:4px;border:1px solid #ffffff24;font-size:10px}
+.aside-progress{font-size:11.5px;color:var(--ice);margin-top:12px;font-weight:600}
+.match-breakdown{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;background:#00000030;border:1px solid #ffffff12;border-radius:9px;padding:8px;margin:10px 0}
+.breakdown-item{text-align:center;font-size:10px}
+.breakdown-item small{display:block;color:var(--muted);font-size:9.5px;margin-bottom:2px}
+.breakdown-item b{color:var(--ice);font-size:11.5px}
+.match-reason{font-size:11px;color:#cad6ea;background:#7566d915;border-left:2px solid var(--lav);padding:6px 10px;border-radius:0 8px 8px 0;margin-bottom:12px;line-height:1.5}
+.career-card .score{display:inline-flex;align-items:center;gap:4px;background:#7566d929;border:1px solid #a6a0ff55;padding:3px 9px;border-radius:12px;font-size:11px;font-weight:700;color:var(--ice)}
+.nav-results{position:relative;animation:pulseSoft 2s infinite alternate}
+@keyframes pulseSoft{from{opacity:.85}to{opacity:1}}
+.option.selected{border-color:var(--lav)!important;background:#7566d933!important;box-shadow:0 0 16px #7566d933}
+.fine,.disclaimer{font-size:11px;color:#a3afc5;line-height:1.8}
+.chart-sub{font-size:11px;color:#a9b6ce;margin:0 0 10px}
+.chart-legend span{font-size:10.5px;color:#c0cce0}
+.panel,.result-card,.career-card,.letter,.detail-block{backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);transition:transform .25s cubic-bezier(.16,1,.3,1),border-color .25s ease,box-shadow .25s ease}
+.career-card:hover{box-shadow:0 14px 34px rgba(117,102,217,.16)}
+.option{transition:transform .18s cubic-bezier(.16,1,.3,1),border-color .18s ease,background .18s ease}
+.option:hover{transform:translateX(4px);border-color:#a6a0ff88}
+.option.selected{transform:translateX(6px)!important}
+.screen.active{animation:appear .3s cubic-bezier(.16,1,.3,1)}
+@keyframes appear{from{opacity:0;transform:translateY(10px) scale(.995)}to{opacity:1;transform:none}}
+@media(max-width:620px){.visual-grid{grid-template-columns:1fr}.chart-card{min-height:285px;padding:18px}.radar-wrap{height:230px}.compact-legend{grid-template-columns:repeat(2,1fr)}.symbol-grid{grid-template-columns:1fr 1fr}.visual-intro{padding-top:20px}.archetype-card{min-height:280px}}
+@media print{.visual-grid{grid-template-columns:1fr 1fr}.chart-card{break-inside:avoid;background:white!important;color:#111}.chart-sub,.chart-legend span,.value-main strong,.symbol-item strong{color:#333!important}}
+</style>
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<header class="topbar">
+  <a class="brand" href="#" data-go="home"><b class="logo">30</b> YEARS <strong>LATER</strong></a>
+  <nav>
+    <button data-go="home">Trang chủ</button>
+    <button data-go="about">Về dự án</button>
+    <button data-go="library">Thư viện nghề</button>
+    <button data-go="results" id="navResultsBtn" class="nav-results" style="display:none;color:var(--lav);font-weight:600;">✧ Kết quả của tôi</button>
+  </nav>
+  <div class="topbar-actions">
+    <button id="topbarResultsBtn" class="btn small ghost" data-go="results" style="display:none;">✧ Xem kết quả</button>
+    <button class="btn small" data-action="start" id="topbarStartBtn">Bắt đầu ↗</button>
+  </div>
+</header>
 <main>
-<section id="home" class="screen active"><div class="hero wrap"><div><span class="eyebrow">✦ INTERACTIVE CAREER DISCOVERY</span><h1>30 năm sau,<br><em>bạn sẽ là ai?</em></h1><p class="lead">Tương lai không phải một đáp án có sẵn. Đó là hành trình được tạo nên từ những lựa chọn, khả năng và điều bạn quan tâm hôm nay.</p><div class="actions" id="heroActions"><button class="btn primary" data-action="start" id="heroStartBtn">Khám phá bản thân <b>→</b></button><button class="btn ghost" data-go="about">Tìm hiểu dự án</button><button class="btn primary" id="heroResultsBtn" data-go="results" style="display:none;">✧ Xem kết quả của tôi →</button></div><div class="meta">✧ 50 câu hỏi　 ◷ 10–15 phút　 ◎ Không cần tài khoản</div></div><div class="portal"><div class="ring r1"></div><div class="ring r2"></div><div class="portal-core"><small>YOUR</small><b>FUTURE</b><small>STARTS HERE</small></div><div class="float f1">✧　Discover</div><div class="float f2">⌁　Explore</div></div></div><div class="wrap strip"><div><b>01</b><span><strong>Khám phá</strong><small>Hiểu tính cách và sở thích</small></span></div><div><b>02</b><span><strong>Phân tích</strong><small>Nhận diện thế mạnh và giá trị</small></span></div><div><b>03</b><span><strong>Định hướng</strong><small>Tìm hiểu hướng nghề nghiệp</small></span></div></div><div class="wrap section"><div class="section-head"><div><span class="eyebrow">THE JOURNEY</span><h2>Mỗi lựa chọn mở ra<br><em>một khả năng mới.</em></h2></div><p>Không có con đường duy nhất dành cho tất cả mọi người. Hãy bắt đầu bằng việc hiểu mình hơn.</p></div><div class="chapters"><article><small>01 / PERSONALITY</small><i>◉</i><h3>Tính cách</h3><p>Khám phá cách bạn suy nghĩ, cảm nhận và tương tác.</p></article><article><small>02 / INTERESTS</small><i>✧</i><h3>Sở thích</h3><p>Tìm hiểu những hoạt động khiến bạn tò mò.</p></article><article><small>03 / STRENGTHS</small><i>⌁</i><h3>Thế mạnh</h3><p>Nhận diện những năng lực bạn muốn phát triển.</p></article><article><small>04 / VALUES</small><i>◇</i><h3>Giá trị</h3><p>Điều gì quan trọng trong công việc và cuộc sống?</p></article><article><small>05 / LIFE CHOICES</small><i>↗</i><h3>Lựa chọn</h3><p>Khám phá cách bạn phản ứng trong tình huống.</p></article></div></div><div class="wrap callout"><div><span class="eyebrow">YOUR NEXT CHAPTER</span><h2>Không cần biết chính xác<br>bạn sẽ trở thành ai.</h2><p>Chỉ cần bắt đầu khám phá những khả năng đang ở phía trước.</p></div><button class="btn light" data-action="start">Bắt đầu hành trình →</button></div></section>
-<section id="about" class="screen wrap"><div class="page-head"><span class="eyebrow">ABOUT THE PROJECT</span><h1>Hiểu mình trước khi<br><em>chọn con đường.</em></h1><p>30 YEARS LATER là dự án khám phá bản thân và nghề nghiệp dành cho học sinh đang tìm kiếm định hướng tương lai.</p></div><div class="info-grid"><article><i>◎</i><h3>Không phải bài kiểm tra định mệnh</h3><p>Kết quả phản ánh câu trả lời tại thời điểm thực hiện. Sở thích và năng lực có thể thay đổi theo trải nghiệm.</p></article><article><i>✧</i><h3>Khám phá nhiều khía cạnh</h3><p>Website tổng hợp tính cách, sở thích, thế mạnh tự đánh giá, giá trị và lựa chọn tình huống.</p></article><article><i>⌁</i><h3>Gợi ý để bắt đầu tìm hiểu</h3><p>Các nghề được đề xuất là hướng đáng khám phá, không phải cam kết thành công.</p></article></div><div class="notice"><b>Thông tin minh bạch</b><p>Bộ câu hỏi do dự án tự xây dựng, lấy cảm hứng từ Big Five và RIASEC. Đây chưa phải công cụ tâm lý chuẩn hóa hoặc kiểm định. Website không chẩn đoán, không xác định năng lực tuyệt đối và không dự đoán chắc chắn nghề nghiệp.</p></div></section>
-<section id="profile" class="screen wrap narrow"><span class="eyebrow">BEFORE WE BEGIN · 00</span><h1>Hãy giới thiệu<br><em>một chút về bạn.</em></h1><p class="muted">Thông tin giúp cá nhân hóa hành trình. Bạn có thể bỏ trống các mục không muốn chia sẻ.</p><form id="profileForm" class="panel"><label>Biệt danh <small>Không bắt buộc</small><input id="nickname" maxlength="24" placeholder="Bạn muốn được gọi là gì?"></label><div class="two"><label>Bạn đang học lớp<select id="grade"><option value="">Chọn lớp</option><option>Lớp 9</option><option>Lớp 10</option><option>Lớp 11</option><option>Lớp 12</option><option>Khác</option></select></label><label>Độ tuổi<select id="age"><option value="">Không muốn chia sẻ</option><option>13–15</option><option>16–17</option><option>18 trở lên</option></select></label></div><label>Môn học bạn quan tâm <small>Chọn nhiều tùy thích</small><div id="subjects" class="chips"><button type="button" class="chip">Toán</button><button type="button" class="chip">Vật lý</button><button type="button" class="chip">Hóa học</button><button type="button" class="chip">Sinh học</button><button type="button" class="chip">Tin học</button><button type="button" class="chip">Ngữ văn</button><button type="button" class="chip">Ngoại ngữ</button><button type="button" class="chip">Lịch sử</button><button type="button" class="chip">Nghệ thuật</button></div></label><label>Điều bạn đang tò mò về tương lai<textarea id="note" rows="3" maxlength="240" placeholder="Ví dụ: mình muốn tìm hiểu công nghệ, thiết kế, kinh doanh..."></textarea></label><p class="privacy">🔒 Dữ liệu được lưu trên trình duyệt. Không nhập họ tên đầy đủ, địa chỉ, số điện thoại hoặc thông tin nhạy cảm.</p><div class="form-actions"><button type="button" class="btn ghost" data-go="home">Để sau</button><button class="btn primary">Bắt đầu chương 01 →</button></div></form></section>
-<section id="quiz" class="screen wrap"><div class="quiz-top"><button class="textbtn" data-action="exit">← Thoát</button><span id="counter">CÂU 01 / 50</span><button class="textbtn" data-action="saveExit">Lưu & thoát</button></div><div class="progress"><span id="progress"></span></div><div class="quiz-layout"><aside><span class="eyebrow" id="chapterNo">CHAPTER 01</span><h2 id="chapterTitle">Personality</h2><p id="chapterDesc">Khám phá cách bạn suy nghĩ.</p><div id="chapterDots" class="dots"></div><p id="chapterProgressText" class="aside-progress"></p><p class="aside-note">Không có câu trả lời đúng hay sai. Hãy chọn phương án phản ánh bạn chân thực nhất.</p></aside><div class="question panel"><span class="eyebrow" id="qtype">PERSONALITY</span><h2 id="qtext"></h2><p id="qhint" class="muted"></p><div id="options" class="options"></div><div class="quiz-actions"><button class="btn ghost" id="previous">← Quay lại</button><small id="answered">0/50 đã trả lời</small><button class="btn primary" id="next" disabled>Tiếp tục →</button></div><div class="quiz-shortcuts" id="quizShortcuts"><small>⌨ Phím tắt: <b>1–5</b> / <b>A–D</b> chọn nhanh · <b>Enter</b> tiếp tục · <b>← / →</b> chuyển câu</small></div></div></div></section>
-<section id="analyzing" class="screen wrap analyze"><div class="orb">30</div><span class="eyebrow">YOUR JOURNEY, YOUR DATA</span><h1>Đang kết nối<br><em>những mảnh ghép.</em></h1><p id="analyzeMsg">Tổng hợp câu trả lời của bạn...</p><div class="progress"><span id="analyzeProgress"></span></div></section>
-<section id="results" class="screen wrap results"><div class="result-head"><div><span class="eyebrow">YOUR DISCOVERY PROFILE</span><h1 id="greeting">Đây là bức tranh khám phá của bạn.</h1><p class="muted">Một điểm bắt đầu để hiểu mình và mở rộng lựa chọn.</p></div><button class="btn ghost" data-action="print">↓ In báo cáo</button></div><div class="banner"><div class="avatar">✧</div><div><span class="eyebrow">YOUR EXPLORER ARCHETYPE</span><h2 id="archetype"></h2><p id="archetypeDesc"></p></div></div><div class="visual-intro"><span class="eyebrow">YOUR PROFILE AT A GLANCE</span><h2>Một bức tranh trực quan về <em>bạn.</em></h2><p>Mỗi biểu đồ thể hiện một khía cạnh riêng. Không có chỉ số nào định nghĩa toàn bộ con người bạn.</p></div><div class="visual-grid"><article class="result-card chart-card personality-card"><div class="card-topline"><span class="eyebrow">01 · PERSONALITY</span><span class="chart-pill">BIG FIVE</span></div><h3>Bản đồ tính cách</h3><p class="chart-sub">Năm đặc điểm tính cách theo câu trả lời của bạn</p><div class="chart-wrap radar-wrap"><canvas id="personalityChart" aria-label="Biểu đồ radar Big Five"></canvas></div><div id="personalityLegend" class="chart-legend"></div></article><article class="result-card chart-card"><div class="card-topline"><span class="eyebrow">02 · INTERESTS</span><span class="chart-pill">RIASEC</span></div><h3>Bản đồ sở thích nghề nghiệp</h3><p class="chart-sub">Sáu nhóm hoạt động bạn có thể quan tâm</p><div class="chart-wrap radar-wrap"><canvas id="interestChart" aria-label="Biểu đồ radar RIASEC"></canvas></div><div id="interestLegend" class="chart-legend compact-legend"></div></article><article class="result-card chart-card"><div class="card-topline"><span class="eyebrow">03 · STRENGTHS</span><span class="chart-pill">SELF-ASSESSMENT</span></div><h3>Những thế mạnh bạn nhận thấy</h3><p class="chart-sub">Các năng lực bạn tự đánh giá cao</p><div class="chart-wrap bar-wrap"><canvas id="strengthChart" aria-label="Biểu đồ thanh thế mạnh"></canvas></div><p class="fine">Đây là tự đánh giá, không phải bài kiểm tra năng lực khách quan.</p></article><article class="result-card chart-card"><div class="card-topline"><span class="eyebrow">04 · VALUES</span><span class="chart-pill">PRIORITIES</span></div><h3>Điều bạn coi trọng</h3><p class="chart-sub">Những giá trị xuất hiện nhiều trong lựa chọn của bạn</p><div id="valuesVisual" class="value-visual"></div></article><article class="result-card chart-card"><div class="card-topline"><span class="eyebrow">05 · LIFE CHOICES</span><span class="chart-pill">DECISION STYLE</span></div><h3>Xu hướng ra quyết định</h3><p class="chart-sub">Các khuynh hướng thể hiện qua tình huống giả định</p><div id="scenarioVisual" class="symbol-grid"></div><p class="fine">Đây là xu hướng trong các tình huống giả định, không phải nhãn tính cách cố định.</p></article><article class="result-card chart-card archetype-card"><span class="eyebrow">YOUR ARCHETYPE</span><div class="archetype-symbol"><span id="archetypeSymbol" class="symbol-inner">✧</span></div><h3 id="archetypeShort">The Curious Explorer</h3><p id="archetypeMini">Tò mò · Khám phá · Phát triển</p><div class="archetype-orbit orbit-one"></div><div class="archetype-orbit orbit-two"></div></article></div><div class="section"><div class="section-head"><div><span class="eyebrow">06 · CAREER MATCHING</span><h2>Những hướng nghề<br><em>đáng để khám phá.</em></h2></div><p>Điểm tương thích theo mô hình thử nghiệm, không phải xác suất thành công.</p></div><div id="recommendations" class="career-grid"></div><div class="recommendations-more" style="text-align:center;margin-top:22px;"><button class="btn ghost small" id="toggleMoreMatches">Khám phá thêm 3 nghề phù hợp (Top 4–6) ↓</button></div></div><div class="roadmap"><div><span class="eyebrow">YOUR NEXT STEPS</span><h2>Biến sự tò mò<br>thành trải nghiệm.</h2><p id="roadmapText"></p></div><ol><li><b>01</b><span><strong>Tìm hiểu</strong><small>Đọc mô tả nghề và chương trình đào tạo.</small></span></li><li><b>02</b><span><strong>Trải nghiệm</strong><small>Thử dự án nhỏ, câu lạc bộ hoặc hoạt động thực tế.</small></span></li><li><b>03</b><span><strong>Điều chỉnh</strong><small>Ghi nhận điều bạn thích và muốn học thêm.</small></span></li></ol></div><div class="actions"><button class="btn primary" data-go="letter">Đọc lá thư tương lai →</button><button class="btn ghost" data-go="library">Khám phá 40 nghề</button><button class="btn ghost" data-action="restart">Làm lại bài</button></div><p class="disclaimer">Kết quả được tạo từ câu trả lời tự báo cáo trong bộ câu hỏi do dự án xây dựng. Không dùng kết quả này làm căn cứ duy nhất để chọn ngành học, chẩn đoán tâm lý hoặc quyết định quan trọng. Bạn có thể thay đổi và phát triển theo thời gian.</p></section>
-<section id="library" class="screen wrap"><div class="page-head"><span class="eyebrow">CAREER UNIVERSE · 40 PATHS</span><h1>Thế giới nghề nghiệp<br><em>đang chờ bạn khám phá.</em></h1><p>Tìm hiểu công việc, kỹ năng, môn học và môi trường làm việc.</p></div><div class="library-tools"><input id="search" placeholder="⌕ Tìm tên nghề hoặc kỹ năng..."><select id="filter"><option value="all">Tất cả lĩnh vực</option><option value="technology">Công nghệ thông tin</option><option value="engineering">Kỹ thuật – Công nghệ</option><option value="creative">Sáng tạo – Truyền thông</option><option value="business">Kinh doanh – Quản trị</option><option value="education">Giáo dục – Xã hội</option><option value="health">Y tế – Sức khỏe</option><option value="science">Khoa học – Nghiên cứu</option><option value="services">Luật – Dịch vụ – Vận hành</option></select></div><p id="careerCount" class="fine"></p><div id="careerGrid" class="career-grid"></div></section>
-<section id="detail" class="screen wrap"><button class="textbtn" id="detailBackBtn">← Quay lại</button><div id="detailContent"></div></section>
-<section id="letter" class="screen wrap letter-wrap"><article class="letter"><span class="eyebrow">A LETTER FROM YOUR FUTURE SELF</span><div class="star">✧</div><h1>Gửi bạn,<br><em>người đang bắt đầu.</em></h1><div id="letterText" class="letter-text"></div><p class="signature">— Một phiên bản tương lai của bạn</p><div class="actions"><button class="btn primary" data-action="print">Lưu / In lá thư</button><button class="btn ghost" data-go="results">Quay lại kết quả</button></div></article></section>
-</main><footer><div class="wrap footer"><a class="brand" data-go="home"><b class="logo">30</b> YEARS <strong>LATER</strong></a><span>Explore yourself. Expand your possibilities.</span><small>© 30 YEARS LATER · STUDENT PROJECT</small></div></footer><div id="toast" role="status"></div><script type="module" src="js/app.js"></script></body></html>
+<section id="home" class="screen active">
+  <div class="hero wrap">
+    <div>
+      <span class="eyebrow">✦ INTERACTIVE CAREER DISCOVERY</span>
+      <h1>30 năm sau,<br><em>bạn sẽ là ai?</em></h1>
+      <p class="lead">Tương lai không phải một đáp án có sẵn. Đó là hành trình được tạo nên từ những lựa chọn, khả năng và điều bạn quan tâm hôm nay.</p>
+      <div class="actions" id="heroActions">
+        <button class="btn primary" data-action="start" id="heroStartBtn">Khám phá bản thân <b>→</b></button>
+        <button class="btn ghost" data-go="about">Tìm hiểu dự án</button>
+        <button class="btn primary" id="heroResultsBtn" data-go="results" style="display:none;">✧ Xem kết quả của tôi →</button>
+      </div>
+      <div class="meta">✧ 50 câu hỏi  ◷ 10–15 phút  ◎ Không cần tài khoản</div>
+    </div>
+    <div class="portal">
+      <div class="ring r1"></div><div class="ring r2"></div>
+      <div class="portal-core"><small>YOUR</small><b>FUTURE</b><small>STARTS HERE</small></div>
+      <div class="float f1">✧ Discover</div><div class="float f2">⌁ Explore</div>
+    </div>
+  </div>
+  <div class="wrap strip">
+    <div><b>01</b><span><strong>Khám phá</strong><small>Hiểu tính cách và sở thích</small></span></div>
+    <div><b>02</b><span><strong>Phân tích</strong><small>Nhận diện thế mạnh và giá trị</small></span></div>
+    <div><b>03</b><span><strong>Định hướng</strong><small>Tìm hiểu hướng nghề nghiệp</small></span></div>
+  </div>
+  <div class="wrap section">
+    <div class="section-head">
+      <div><span class="eyebrow">THE JOURNEY</span><h2>Mỗi lựa chọn mở ra<br><em>một khả năng mới.</em></h2></div>
+      <p>Không có con đường duy nhất dành cho tất cả mọi người. Hãy bắt đầu bằng việc hiểu mình hơn.</p>
+    </div>
+    <div class="chapters">
+      <article><small>01 / PERSONALITY</small><i>◉</i><h3>Tính cách</h3><p>Khám phá cách bạn suy nghĩ, cảm nhận và tương tác.</p></article>
+      <article><small>02 / INTERESTS</small><i>✧</i><h3>Sở thích</h3><p>Tìm hiểu những hoạt động khiến bạn tò mò.</p></article>
+      <article><small>03 / STRENGTHS</small><i>⌁</i><h3>Thế mạnh</h3><p>Nhận diện những năng lực bạn muốn phát triển.</p></article>
+      <article><small>04 / VALUES</small><i>◇</i><h3>Giá trị</h3><p>Điều gì quan trọng trong công việc và cuộc sống?</p></article>
+      <article><small>05 / LIFE CHOICES</small><i>↗</i><h3>Lựa chọn</h3><p>Khám phá cách bạn phản ứng trong tình huống.</p></article>
+    </div>
+  </div>
+  <div class="wrap callout">
+    <div><span class="eyebrow">YOUR NEXT CHAPTER</span><h2>Không cần biết chính xác<br>bạn sẽ trở thành ai.</h2><p>Chỉ cần bắt đầu khám phá những khả năng đang ở phía trước.</p></div>
+    <button class="btn light" data-action="start">Bắt đầu hành trình →</button>
+  </div>
+</section>
+
+<section id="about" class="screen wrap">
+  <div class="page-head"><span class="eyebrow">ABOUT THE PROJECT</span><h1>Hiểu mình trước khi<br><em>chọn con đường.</em></h1><p>30 YEARS LATER là dự án khám phá bản thân và nghề nghiệp dành cho học sinh đang tìm kiếm định hướng tương lai.</p></div>
+  <div class="info-grid">
+    <article><i>◎</i><h3>Không phải bài kiểm tra định mệnh</h3><p>Kết quả phản ánh câu trả lời tại thời điểm thực hiện. Sở thích và năng lực có thể thay đổi theo trải nghiệm.</p></article>
+    <article><i>✧</i><h3>Khám phá nhiều khía cạnh</h3><p>Website tổng hợp tính cách, sở thích, thế mạnh tự đánh giá, giá trị và lựa chọn tình huống.</p></article>
+    <article><i>⌁</i><h3>Gợi ý để bắt đầu tìm hiểu</h3><p>Các nghề được đề xuất là hướng đáng khám phá, không phải cam kết thành công.</p></article>
+  </div>
+  <div class="notice"><b>Thông tin minh bạch</b><p>Bộ câu hỏi do dự án tự xây dựng, lấy cảm hứng từ Big Five và RIASEC. Đây chưa phải công cụ tâm lý chuẩn hóa hoặc kiểm định. Website không chẩn đoán, không xác định năng lực tuyệt đối và không dự đoán chắc chắn nghề nghiệp.</p></div>
+</section>
+
+<section id="profile" class="screen wrap narrow">
+  <span class="eyebrow">BEFORE WE BEGIN · 00</span>
+  <h1>Hãy giới thiệu<br><em>một chút về bạn.</em></h1>
+  <p class="muted">Thông tin giúp cá nhân hóa hành trình. Bạn có thể bỏ trống các mục không muốn chia sẻ.</p>
+  <form id="profileForm" class="panel">
+    <label>Biệt danh <small>Không bắt buộc</small><input id="nickname" maxlength="24" placeholder="Bạn muốn được gọi là gì?"></label>
+    <div class="two">
+      <label>Bạn đang học lớp<select id="grade"><option value="">Chọn lớp</option><option>Lớp 9</option><option>Lớp 10</option><option>Lớp 11</option><option>Lớp 12</option><option>Khác</option></select></label>
+      <label>Độ tuổi<select id="age"><option value="">Không muốn chia sẻ</option><option>13–15</option><option>16–17</option><option>18 trở lên</option></select></label>
+    </div>
+    <label>Môn học bạn quan tâm <small>Chọn nhiều tùy thích</small>
+      <div id="subjects" class="chips">
+        <button type="button" class="chip">Toán</button><button type="button" class="chip">Vật lý</button><button type="button" class="chip">Hóa học</button><button type="button" class="chip">Sinh học</button><button type="button" class="chip">Tin học</button><button type="button" class="chip">Ngữ văn</button><button type="button" class="chip">Ngoại ngữ</button><button type="button" class="chip">Lịch sử</button><button type="button" class="chip">Nghệ thuật</button>
+      </div>
+    </label>
+    <label>Điều bạn đang tò mò về tương lai<textarea id="note" rows="3" maxlength="240" placeholder="Ví dụ: mình muốn tìm hiểu công nghệ, thiết kế, kinh doanh..."></textarea></label>
+    <p class="privacy">🔒 Dữ liệu được lưu trên trình duyệt. Không nhập họ tên đầy đủ, địa chỉ, số điện thoại hoặc thông tin nhạy cảm.</p>
+    <div class="form-actions"><button type="button" class="btn ghost" data-go="home">Để sau</button><button class="btn primary">Bắt đầu chương 01 →</button></div>
+  </form>
+</section>
+
+<section id="quiz" class="screen wrap">
+  <div class="quiz-top"><button class="textbtn" data-action="exit">← Thoát</button><span id="counter">CÂU 01 / 50</span><button class="textbtn" data-action="saveExit">Lưu & thoát</button></div>
+  <div class="progress"><span id="progress"></span></div>
+  <div class="quiz-layout">
+    <aside><span class="eyebrow" id="chapterNo">CHAPTER 01</span><h2 id="chapterTitle">Personality</h2><p id="chapterDesc">Khám phá cách bạn suy nghĩ.</p><div id="chapterDots" class="dots"></div><p id="chapterProgressText" class="aside-progress"></p><p class="aside-note">Không có câu trả lời đúng hay sai. Hãy chọn phương án phản ánh bạn chân thực nhất.</p></aside>
+    <div class="question panel">
+      <span class="eyebrow" id="qtype">PERSONALITY</span>
+      <h2 id="qtext"></h2><p id="qhint" class="muted"></p>
+      <div id="options" class="options"></div>
+      <div class="quiz-actions"><button class="btn ghost" id="previous">← Quay lại</button><small id="answered">0/50 đã trả lời</small><button class="btn primary" id="next" disabled>Tiếp tục →</button></div>
+      <div class="quiz-shortcuts" id="quizShortcuts"><small>⌨ Phím tắt: <b>1–5</b> / <b>A–D</b> chọn nhanh · <b>Enter</b> tiếp tục · <b>← / →</b> chuyển câu</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="analyzing" class="screen wrap analyze">
+  <div class="orb">30</div>
+  <span class="eyebrow">YOUR JOURNEY, YOUR DATA</span>
+  <h1>Đang kết nối<br><em>những mảnh ghép.</em></h1>
+  <p id="analyzeMsg">Tổng hợp câu trả lời của bạn...</p>
+  <div class="progress"><span id="analyzeProgress"></span></div>
+</section>
+
+<section id="results" class="screen wrap results">
+  <div class="result-head">
+    <div><span class="eyebrow">YOUR DISCOVERY PROFILE</span><h1 id="greeting">Đây là bức tranh khám phá của bạn.</h1><p class="muted">Một điểm bắt đầu để hiểu mình và mở rộng lựa chọn.</p></div>
+    <button class="btn ghost" data-action="print">↓ In báo cáo</button>
+  </div>
+  <div class="banner"><div class="avatar">✧</div><div><span class="eyebrow">YOUR EXPLORER ARCHETYPE</span><h2 id="archetype"></h2><p id="archetypeDesc"></p></div></div>
+  <div class="visual-intro"><span class="eyebrow">YOUR PROFILE AT A GLANCE</span><h2>Một bức tranh trực quan về <em>bạn.</em></h2><p>Mỗi biểu đồ thể hiện một khía cạnh riêng. Không có chỉ số nào định nghĩa toàn bộ con người bạn.</p></div>
+  <div class="visual-grid">
+    <article class="result-card chart-card personality-card">
+      <div class="card-topline"><span class="eyebrow">01 · PERSONALITY</span><span class="chart-pill">BIG FIVE</span></div>
+      <h3>Bản đồ tính cách</h3><p class="chart-sub">Năm đặc điểm tính cách theo câu trả lời của bạn</p>
+      <div class="chart-wrap radar-wrap"><canvas id="personalityChart" aria-label="Biểu đồ radar Big Five"></canvas></div>
+      <div id="personalityLegend" class="chart-legend"></div>
+    </article>
+    <article class="result-card chart-card">
+      <div class="card-topline"><span class="eyebrow">02 · INTERESTS</span><span class="chart-pill">RIASEC</span></div>
+      <h3>Bản đồ sở thích nghề nghiệp</h3><p class="chart-sub">Sáu nhóm hoạt động bạn có thể quan tâm</p>
+      <div class="chart-wrap radar-wrap"><canvas id="interestChart" aria-label="Biểu đồ radar RIASEC"></canvas></div>
+      <div id="interestLegend" class="chart-legend compact-legend"></div>
+    </article>
+    <article class="result-card chart-card">
+      <div class="card-topline"><span class="eyebrow">03 · STRENGTHS</span><span class="chart-pill">SELF-ASSESSMENT</span></div>
+      <h3>Những thế mạnh bạn nhận thấy</h3><p class="chart-sub">Các năng lực bạn tự đánh giá cao</p>
+      <div class="chart-wrap bar-wrap"><canvas id="strengthChart" aria-label="Biểu đồ thanh thế mạnh"></canvas></div>
+      <p class="fine">Đây là tự đánh giá, không phải bài kiểm tra năng lực khách quan.</p>
+    </article>
+    <article class="result-card chart-card">
+      <div class="card-topline"><span class="eyebrow">04 · VALUES</span><span class="chart-pill">PRIORITIES</span></div>
+      <h3>Điều bạn coi trọng</h3><p class="chart-sub">Những giá trị xuất hiện nhiều trong lựa chọn của bạn</p>
+      <div id="valuesVisual" class="value-visual"></div>
+    </article>
+    <article class="result-card chart-card">
+      <div class="card-topline"><span class="eyebrow">05 · LIFE CHOICES</span><span class="chart-pill">DECISION STYLE</span></div>
+      <h3>Xu hướng ra quyết định</h3><p class="chart-sub">Các khuynh hướng thể hiện qua tình huống giả định</p>
+      <div id="scenarioVisual" class="symbol-grid"></div>
+      <p class="fine">Đây là xu hướng trong các tình huống giả định, không phải nhãn tính cách cố định.</p>
+    </article>
+    <article class="result-card chart-card archetype-card">
+      <span class="eyebrow">YOUR ARCHETYPE</span>
+      <div class="archetype-symbol"><span id="archetypeSymbol" class="symbol-inner">✧</span></div>
+      <h3 id="archetypeShort">The Curious Explorer</h3>
+      <p id="archetypeMini">Tò mò · Khám phá · Phát triển</p>
+      <div class="archetype-orbit orbit-one"></div><div class="archetype-orbit orbit-two"></div>
+    </article>
+  </div>
+  <div class="section">
+    <div class="section-head">
+      <div><span class="eyebrow">06 · CAREER MATCHING</span><h2>Những hướng nghề<br><em>đáng để khám phá.</em></h2></div>
+      <p>Điểm tương thích theo mô hình thử nghiệm, không phải xác suất thành công.</p>
+    </div>
+    <div id="recommendations" class="career-grid"></div>
+    <div class="recommendations-more" style="text-align:center;margin-top:22px;"><button class="btn ghost small" id="toggleMoreMatches">Khám phá thêm 3 nghề phù hợp (Top 4–6) ↓</button></div>
+  </div>
+  <div class="roadmap">
+    <div><span class="eyebrow">YOUR NEXT STEPS</span><h2>Biến sự tò mò<br>thành trải nghiệm.</h2><p id="roadmapText"></p></div>
+    <ol><li><b>01</b><span><strong>Tìm hiểu</strong><small>Đọc mô tả nghề và chương trình đào tạo.</small></span></li><li><b>02</b><span><strong>Trải nghiệm</strong><small>Thử dự án nhỏ, câu lạc bộ hoặc hoạt động thực tế.</small></span></li><li><b>03</b><span><strong>Điều chỉnh</strong><small>Ghi nhận điều bạn thích và muốn học thêm.</small></span></li></ol>
+  </div>
+  <div class="actions">
+    <button class="btn primary" data-go="letter">Đọc lá thư tương lai →</button>
+    <button class="btn ghost" data-go="library">Khám phá 40 nghề</button>
+    <button class="btn ghost" data-action="restart">Làm lại bài</button>
+  </div>
+  <p class="disclaimer">Kết quả được tạo từ câu trả lời tự báo cáo trong bộ câu hỏi do dự án xây dựng. Không dùng kết quả này làm căn cứ duy nhất để chọn ngành học, chẩn đoán tâm lý hoặc quyết định quan trọng. Bạn có thể thay đổi và phát triển theo thời gian.</p>
+</section>
+
+<section id="library" class="screen wrap">
+  <div class="page-head"><span class="eyebrow">CAREER UNIVERSE · 40 PATHS</span><h1>Thế giới nghề nghiệp<br><em>đang chờ bạn khám phá.</em></h1><p>Tìm hiểu công việc, kỹ năng, môn học và môi trường làm việc.</p></div>
+  <div class="library-tools">
+    <input id="search" placeholder="⌕ Tìm tên nghề hoặc kỹ năng...">
+    <select id="filter">
+      <option value="all">Tất cả lĩnh vực</option><option value="technology">Công nghệ thông tin</option><option value="engineering">Kỹ thuật – Công nghệ</option><option value="creative">Sáng tạo – Truyền thông</option><option value="business">Kinh doanh – Quản trị</option><option value="education">Giáo dục – Xã hội</option><option value="health">Y tế – Sức khỏe</option><option value="science">Khoa học – Nghiên cứu</option><option value="services">Luật – Dịch vụ – Vận hành</option>
+    </select>
+  </div>
+  <p id="careerCount" class="fine"></p>
+  <div id="careerGrid" class="career-grid"></div>
+</section>
+
+<section id="detail" class="screen wrap">
+  <button class="textbtn" id="detailBackBtn">← Quay lại</button>
+  <div id="detailContent"></div>
+</section>
+
+<section id="letter" class="screen wrap letter-wrap">
+  <article class="letter">
+    <span class="eyebrow">A LETTER FROM YOUR FUTURE SELF</span>
+    <div class="star">✧</div>
+    <h1>Gửi bạn,<br><em>người đang bắt đầu.</em></h1>
+    <div id="letterText" class="letter-text"></div>
+    <p class="signature">— Một phiên bản tương lai của bạn</p>
+    <div class="actions"><button class="btn primary" data-action="print">Lưu / In lá thư</button><button class="btn ghost" data-go="results">Quay lại kết quả</button></div>
+  </article>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer">
+    <a class="brand" data-go="home"><b class="logo">30</b> YEARS <strong>LATER</strong></a>
+    <span>Explore yourself. Expand your possibilities.</span>
+    <small>© 30 YEARS LATER · STUDENT PROJECT</small>
+  </div>
+</footer>
+<div id="toast" role="status"></div>
+
+<script>
+// Nhúng trực tiếp dữ liệu JSON và mã nguồn app.js vào đây
+const embeddedQuestions = [
+  {
+    "id": "P01",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường tò mò về những kiến thức hoặc lĩnh vực mới.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P02",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thích thử nghiệm cách làm mới.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P03",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường nghĩ ra nhiều khả năng khi giải quyết vấn đề.",
+    "dimension": "openness"
+  },
+  {
+    "id": "P04",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi lập kế hoạch trước khi bắt đầu việc quan trọng.",
+    "dimension": "conscientiousness"
+  },
+  {
+    "id": "P05",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi cố gắng hoàn thành nhiệm vụ đúng hạn mà không cần nhắc.",
+    "dimension": "conscientiousness"
+  },
+  {
+    "id": "P06",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường để công việc đến sát hạn mới bắt đầu.",
+    "dimension": "conscientiousness",
+    "reverse": true
+  },
+  {
+    "id": "P07",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi hào hứng khi tham gia hoạt động tập thể và gặp người mới.",
+    "dimension": "extraversion"
+  },
+  {
+    "id": "P08",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường chủ động bày tỏ ý kiến trong nhóm.",
+    "dimension": "extraversion"
+  },
+  {
+    "id": "P09",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi cố gắng hiểu quan điểm người khác trước khi phản hồi.",
+    "dimension": "agreeableness"
+  },
+  {
+    "id": "P10",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi sẵn sàng hợp tác và hỗ trợ người khác.",
+    "dimension": "agreeableness"
+  },
+  {
+    "id": "P11",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Tôi thường lo lắng trước những tình huống chưa biết kết quả.",
+    "dimension": "neuroticism"
+  },
+  {
+    "id": "P12",
+    "chapter": "personality",
+    "type": "likert",
+    "text": "Khi gặp thất bại, tâm trạng tôi thường bị ảnh hưởng một thời gian.",
+    "dimension": "neuroticism"
+  },
+  {
+    "id": "I01",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Lắp ráp, sửa chữa hoặc tìm hiểu cách hoạt động của máy móc.",
+    "dimension": "r"
+  },
+  {
+    "id": "I02",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Thực hiện thí nghiệm hoặc giải thích hiện tượng khoa học.",
+    "dimension": "i"
+  },
+  {
+    "id": "I03",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Sáng tạo hình ảnh, video, âm nhạc hoặc sản phẩm nghệ thuật.",
+    "dimension": "a"
+  },
+  {
+    "id": "I04",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Giúp đỡ, hướng dẫn hoặc giải thích kiến thức cho người khác.",
+    "dimension": "s"
+  },
+  {
+    "id": "I05",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Đề xuất ý tưởng, thuyết phục hoặc dẫn dắt dự án.",
+    "dimension": "e"
+  },
+  {
+    "id": "I06",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Sắp xếp dữ liệu, lập kế hoạch và quản lý thông tin.",
+    "dimension": "c"
+  },
+  {
+    "id": "I07",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Tìm hiểu hoặc thử nghiệm sản phẩm công nghệ mới.",
+    "dimension": "i"
+  },
+  {
+    "id": "I08",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Làm việc với thiết bị, công cụ hoặc hoạt động kỹ thuật.",
+    "dimension": "r"
+  },
+  {
+    "id": "I09",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Tổ chức hoạt động cộng đồng có ích cho mọi người.",
+    "dimension": "s"
+  },
+  {
+    "id": "I10",
+    "chapter": "interests",
+    "type": "likert",
+    "text": "Xây dựng thương hiệu hoặc dự án kinh doanh.",
+    "dimension": "e"
+  },
+  {
+    "id": "S01",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi phân tích vấn đề phức tạp thành các phần nhỏ.",
+    "dimension": "logic"
+  },
+  {
+    "id": "S02",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi nhận ra mối liên hệ giữa các thông tin.",
+    "dimension": "analysis"
+  },
+  {
+    "id": "S03",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi trình bày ý tưởng để người khác dễ hiểu.",
+    "dimension": "communication"
+  },
+  {
+    "id": "S04",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi lắng nghe và nhận biết khi người khác cần hỗ trợ.",
+    "dimension": "empathy"
+  },
+  {
+    "id": "S05",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi nghĩ ra nhiều ý tưởng khi làm nhiệm vụ sáng tạo.",
+    "dimension": "creativity"
+  },
+  {
+    "id": "S06",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi tự tìm hiểu kiến thức qua sách và tài liệu.",
+    "dimension": "self_learning"
+  },
+  {
+    "id": "S07",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi duy trì tập trung khi làm một nhiệm vụ.",
+    "dimension": "focus"
+  },
+  {
+    "id": "S08",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi phối hợp với nhiều người để đạt mục tiêu chung.",
+    "dimension": "teamwork"
+  },
+  {
+    "id": "S09",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi thích nghi khi kế hoạch thay đổi.",
+    "dimension": "adaptability"
+  },
+  {
+    "id": "S10",
+    "chapter": "strengths",
+    "type": "likert",
+    "text": "Tôi cân nhắc thông tin trước khi đưa ra lựa chọn.",
+    "dimension": "decision_making"
+  },
+  {
+    "id": "V01",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Khi nghĩ về công việc tương lai, điều nào quan trọng hơn?",
+    "options": [
+      { "id": "A", "text": "Thu nhập tốt và cơ hội tài chính.", "tags": ["financial"] },
+      { "id": "B", "text": "Công việc có ý nghĩa và tạo tác động tích cực.", "tags": ["purpose"] }
+    ]
+  },
+  {
+    "id": "V02",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn thích môi trường nào?",
+    "options": [
+      { "id": "A", "text": "Ổn định, có quy trình rõ ràng.", "tags": ["stability"] },
+      { "id": "B", "text": "Linh hoạt, thường xuyên có điều mới.", "tags": ["flexibility"] }
+    ]
+  },
+  {
+    "id": "V03",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn phát triển theo hướng nào?",
+    "options": [
+      { "id": "A", "text": "Trở thành chuyên gia giỏi.", "tags": ["expertise"] },
+      { "id": "B", "text": "Trở thành người lãnh đạo đội nhóm.", "tags": ["leadership"] }
+    ]
+  },
+  {
+    "id": "V04",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn ưu tiên điều gì?",
+    "options": [
+      { "id": "A", "text": "Có thời gian cho gia đình và bản thân.", "tags": ["balance"] },
+      { "id": "B", "text": "Có cơ hội phát triển sự nghiệp mạnh mẽ.", "tags": ["achievement"] }
+    ]
+  },
+  {
+    "id": "V05",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn thích kiểu thành quả nào?",
+    "options": [
+      { "id": "A", "text": "Được công nhận vì thành tích cá nhân.", "tags": ["recognition"] },
+      { "id": "B", "text": "Được ghi nhận vì đóng góp tập thể.", "tags": ["contribution"] }
+    ]
+  },
+  {
+    "id": "V06",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Công việc nên mang lại điều gì?",
+    "options": [
+      { "id": "A", "text": "Cơ hội học hỏi liên tục.", "tags": ["learning"] },
+      { "id": "B", "text": "Sự chắc chắn và khả năng dự đoán.", "tags": ["stability"] }
+    ]
+  },
+  {
+    "id": "V07",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn quyền chủ động thế nào?",
+    "options": [
+      { "id": "A", "text": "Tự quyết định cách thực hiện.", "tags": ["autonomy"] },
+      { "id": "B", "text": "Làm theo định hướng và tiêu chuẩn rõ ràng.", "tags": ["structure"] }
+    ]
+  },
+  {
+    "id": "V08",
+    "chapter": "values",
+    "type": "choice",
+    "text": "Bạn muốn điều gì hơn?",
+    "options": [
+      { "id": "A", "text": "Đạt thành tựu lớn và thử thách bản thân.", "tags": ["achievement"] },
+      { "id": "B", "text": "Có cuộc sống cân bằng, ít áp lực hơn.", "tags": ["balance"] }
+    ]
+  },
+  {
+    "id": "L01",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn được giao dự án lớn cùng nhóm. Bạn bắt đầu thế nào?",
+    "options": [
+      { "id": "A", "text": "Phân tích yêu cầu trước.", "tags": ["ANALYTICAL", "RESEARCH"] },
+      { "id": "B", "text": "Đưa ra ý tưởng mới và thử nghiệm.", "tags": ["CREATIVE", "EXPERIMENTAL"] },
+      { "id": "C", "text": "Trao đổi và phân chia việc.", "tags": ["SOCIAL", "LEADERSHIP"] },
+      { "id": "D", "text": "Lập kế hoạch và thời hạn.", "tags": ["ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L02",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn được mời tham gia cuộc thi ở lĩnh vực mới.",
+    "options": [
+      { "id": "A", "text": "Tham gia để trải nghiệm.", "tags": ["EXPERIMENTAL", "ADAPTABILITY"] },
+      { "id": "B", "text": "Tìm hiểu kỹ yêu cầu.", "tags": ["RESEARCH", "ANALYTICAL"] },
+      { "id": "C", "text": "Hỏi người có kinh nghiệm.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Cân nhắc thời gian và kế hoạch.", "tags": ["ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L03",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Sản phẩm bạn làm chưa đạt kết quả mong đợi.",
+    "options": [
+      { "id": "A", "text": "Phân tích nguyên nhân.", "tags": ["ANALYTICAL", "RESEARCH"] },
+      { "id": "B", "text": "Thử phương pháp khác.", "tags": ["CREATIVE", "EXPERIMENTAL"] },
+      { "id": "C", "text": "Xin phản hồi.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Điều chỉnh kế hoạch.", "tags": ["ORGANIZED", "ADAPTABILITY"] }
+    ]
+  },
+  {
+    "id": "L04",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Hai thành viên bất đồng khiến nhóm trì hoãn.",
+    "options": [
+      { "id": "A", "text": "So sánh phương án bằng tiêu chí.", "tags": ["ANALYTICAL"] },
+      { "id": "B", "text": "Kết hợp hai ý tưởng.", "tags": ["CREATIVE"] },
+      { "id": "C", "text": "Lắng nghe và tìm điểm chung.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Thống nhất quyết định để tiếp tục.", "tags": ["LEADERSHIP", "ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L05",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có một ngày hoàn toàn tự do.",
+    "options": [
+      { "id": "A", "text": "Tìm hiểu kiến thức mới.", "tags": ["RESEARCH"] },
+      { "id": "B", "text": "Sáng tạo sản phẩm cá nhân.", "tags": ["CREATIVE"] },
+      { "id": "C", "text": "Gặp bạn bè hoặc tham gia cộng đồng.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Sắp xếp việc còn dang dở.", "tags": ["ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L06",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có cơ hội thử sức trong một dự án nghề nghiệp.",
+    "options": [
+      { "id": "A", "text": "Nghiên cứu và phân tích.", "tags": ["RESEARCH", "ANALYTICAL"] },
+      { "id": "B", "text": "Thiết kế ý tưởng mới.", "tags": ["CREATIVE"] },
+      { "id": "C", "text": "Hỗ trợ người dùng.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Điều phối nhóm.", "tags": ["LEADERSHIP", "ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L07",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn tiếp cận công nghệ mới nhưng chưa biết sử dụng.",
+    "options": [
+      { "id": "A", "text": "Đọc tài liệu và nguyên lý.", "tags": ["RESEARCH"] },
+      { "id": "B", "text": "Tự thử nghiệm.", "tags": ["EXPERIMENTAL"] },
+      { "id": "C", "text": "Cùng học với người có kinh nghiệm.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Lập lộ trình học.", "tags": ["ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L08",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn có ba nhiệm vụ cần hoàn thành trong thời gian hạn chế.",
+    "options": [
+      { "id": "A", "text": "Ưu tiên việc ảnh hưởng lớn nhất.", "tags": ["ANALYTICAL"] },
+      { "id": "B", "text": "Tìm cách xử lý sáng tạo.", "tags": ["CREATIVE", "ADAPTABILITY"] },
+      { "id": "C", "text": "Nhờ hỗ trợ và phân chia việc.", "tags": ["SOCIAL", "LEADERSHIP"] },
+      { "id": "D", "text": "Lập danh sách ưu tiên.", "tags": ["ORGANIZED"] }
+    ]
+  },
+  {
+    "id": "L09",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Nhóm chưa đồng tình với ý tưởng của bạn.",
+    "options": [
+      { "id": "A", "text": "Thu thập dữ liệu giải thích.", "tags": ["ANALYTICAL", "RESEARCH"] },
+      { "id": "B", "text": "Tạo bản thử nghiệm.", "tags": ["CREATIVE", "EXPERIMENTAL"] },
+      { "id": "C", "text": "Lắng nghe và điều chỉnh.", "tags": ["SOCIAL", "ADAPTABILITY"] },
+      { "id": "D", "text": "Thuyết phục nhóm thử nghiệm.", "tags": ["LEADERSHIP"] }
+    ]
+  },
+  {
+    "id": "L10",
+    "chapter": "life_choices",
+    "type": "scenario",
+    "text": "Bạn muốn được nhớ đến vì điều gì?",
+    "options": [
+      { "id": "A", "text": "Tạo ra giải pháp và khám phá mới.", "tags": ["RESEARCH", "ANALYTICAL"] },
+      { "id": "B", "text": "Tạo ra sản phẩm độc đáo.", "tags": ["CREATIVE"] },
+      { "id": "C", "text": "Giúp đỡ và truyền cảm hứng.", "tags": ["SOCIAL"] },
+      { "id": "D", "text": "Xây dựng dự án có ảnh hưởng.", "tags": ["LEADERSHIP", "ORGANIZED"] }
+    ]
+  }
+];
+
+const embeddedCareers = [
+  {
+    "id": "IT01",
+    "name": "Kỹ sư phần mềm",
+    "english_name": "",
+    "category": "technology",
+    "riasec": ["I", "C", "R"],
+    "description": "Phát triển, kiểm thử và bảo trì phần mềm.",
+    "responsibilities": ["Lập trình", "kiểm thử", "sửa lỗi"],
+    "skills": ["Tư duy logic", "Lập trình", "Làm việc nhóm"],
+    "subjects": ["Tin học", "Toán", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty công nghệ"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần học liên tục"]
+  },
+  {
+    "id": "IT02",
+    "name": "Chuyên viên an ninh mạng",
+    "english_name": "",
+    "category": "technology",
+    "riasec": ["I", "R", "C"],
+    "description": "Bảo vệ hệ thống, mạng và dữ liệu số.",
+    "responsibilities": ["Theo dõi cảnh báo", "đánh giá rủi ro", "đề xuất bảo vệ"],
+    "skills": ["Phân tích", "Mạng máy tính", "Cẩn thận"],
+    "subjects": ["Tin học", "Toán", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty công nghệ", "ngân hàng"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Công nghệ và rủi ro thay đổi liên tục"]
+  },
+  {
+    "id": "IT03",
+    "name": "Chuyên viên phân tích dữ liệu",
+    "english_name": "",
+    "category": "technology",
+    "riasec": ["I", "C", "R"],
+    "description": "Phân tích dữ liệu để hỗ trợ quyết định.",
+    "responsibilities": ["Làm sạch dữ liệu", "phân tích xu hướng", "báo cáo"],
+    "skills": ["Toán thống kê", "Phân tích", "Trình bày"],
+    "subjects": ["Toán", "Tin học", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "ngân hàng"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Dữ liệu có thể thiếu hoặc sai"]
+  },
+  {
+    "id": "IT04",
+    "name": "Kỹ sư trí tuệ nhân tạo",
+    "english_name": "",
+    "category": "technology",
+    "riasec": ["I", "R", "I"],
+    "description": "Xây dựng và tích hợp hệ thống AI.",
+    "responsibilities": ["Chuẩn bị dữ liệu", "đánh giá mô hình", "tích hợp AI"],
+    "skills": ["Toán", "Lập trình", "Nghiên cứu"],
+    "subjects": ["Toán", "Tin học", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty công nghệ", "phòng nghiên cứu"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần nền tảng toán và lập trình vững"]
+  },
+  {
+    "id": "IT05",
+    "name": "Kỹ sư mạng máy tính",
+    "english_name": "",
+    "category": "technology",
+    "riasec": ["R", "I", "C"],
+    "description": "Thiết kế và vận hành hạ tầng mạng.",
+    "responsibilities": ["Cấu hình mạng", "giám sát", "xử lý sự cố"],
+    "skills": ["Kiến thức mạng", "Giải quyết sự cố"],
+    "subjects": ["Tin học", "Toán", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "trung tâm dữ liệu"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể xử lý sự cố ngoài giờ"]
+  },
+  {
+    "id": "EN01",
+    "name": "Kỹ sư tự động hóa",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": ["R", "I", "C"],
+    "description": "Thiết kế hệ thống điều khiển tự động.",
+    "responsibilities": ["Thiết kế điều khiển", "cảm biến", "kiểm tra dây chuyền"],
+    "skills": ["Toán và vật lý", "Lập trình điều khiển", "Thực hành"],
+    "subjects": ["Toán", "Vật lý", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Nhà máy", "công ty kỹ thuật"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần nền tảng kỹ thuật vững"]
+  },
+  {
+    "id": "EN02",
+    "name": "Kỹ sư robot",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": ["R", "I", "E"],
+    "description": "Nghiên cứu và tích hợp robot.",
+    "responsibilities": ["Thiết kế cơ cấu", "lập trình", "thử nghiệm"],
+    "skills": ["Cơ khí", "Điện tử", "Lập trình"],
+    "subjects": ["Toán", "Vật lý", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Phòng nghiên cứu", "nhà máy"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần phối hợp nhiều chuyên môn"]
+  },
+  {
+    "id": "EN03",
+    "name": "Kỹ sư điện – điện tử",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": ["R", "I", "C"],
+    "description": "Thiết kế và kiểm tra hệ thống điện tử.",
+    "responsibilities": ["Thiết kế mạch", "kiểm tra thiết bị", "phân tích lỗi"],
+    "skills": ["Vật lý", "Toán", "Thực hành"],
+    "subjects": ["Toán", "Vật lý", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty kỹ thuật", "nhà máy"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Đòi hỏi độ chính xác cao"]
+  },
+  {
+    "id": "EN04",
+    "name": "Kỹ sư cơ khí",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": ["R", "I", "C"],
+    "description": "Thiết kế và cải tiến máy móc.",
+    "responsibilities": ["Vẽ kỹ thuật", "tính toán", "giám sát chế tạo"],
+    "skills": ["Tư duy không gian", "Toán", "Thiết kế"],
+    "subjects": ["Toán", "Vật lý", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Nhà máy", "công ty thiết kế"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể gắn với môi trường sản xuất"]
+  },
+  {
+    "id": "EN05",
+    "name": "Kỹ sư xây dựng",
+    "english_name": "",
+    "category": "engineering",
+    "riasec": ["R", "C", "I"],
+    "description": "Thiết kế và giám sát công trình.",
+    "responsibilities": ["Triển khai bản vẽ", "tính kết cấu", "giám sát"],
+    "skills": ["Toán", "Tổ chức", "Giải quyết vấn đề"],
+    "subjects": ["Toán", "Vật lý", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công trường", "công ty tư vấn"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể làm việc ngoài hiện trường"]
+  },
+  {
+    "id": "CR01",
+    "name": "Nhà thiết kế đồ họa",
+    "english_name": "",
+    "category": "creative",
+    "riasec": ["A", "E", "R"],
+    "description": "Truyền tải thông điệp bằng hình ảnh.",
+    "responsibilities": ["Thiết kế ấn phẩm", "nhận diện", "chỉnh sửa"],
+    "skills": ["Thẩm mỹ", "Sáng tạo", "Công cụ thiết kế"],
+    "subjects": ["Mỹ thuật", "Tin học", "Ngữ văn"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Studio", "công ty truyền thông"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần tiếp nhận phản hồi và deadline"]
+  },
+  {
+    "id": "CR02",
+    "name": "Nhà thiết kế UI/UX",
+    "english_name": "",
+    "category": "creative",
+    "riasec": ["A", "I", "E"],
+    "description": "Thiết kế giao diện và trải nghiệm số.",
+    "responsibilities": ["Nghiên cứu người dùng", "thiết kế luồng", "thử nghiệm"],
+    "skills": ["Tư duy thiết kế", "Thấu hiểu", "Sáng tạo"],
+    "subjects": ["Tin học", "Mỹ thuật", "Toán"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty công nghệ", "nhóm sản phẩm"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cân bằng thẩm mỹ và tiện dụng"]
+  },
+  {
+    "id": "CR03",
+    "name": "Nhà sáng tạo nội dung",
+    "english_name": "",
+    "category": "creative",
+    "riasec": ["A", "E", "S"],
+    "description": "Sản xuất và phát triển nội dung số.",
+    "responsibilities": ["Nghiên cứu", "viết/quay", "theo dõi phản hồi"],
+    "skills": ["Sáng tạo", "Kể chuyện", "Giao tiếp"],
+    "subjects": ["Ngữ văn", "Tin học", "Ngoại ngữ"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Công ty truyền thông", "làm độc lập"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần duy trì chất lượng và cập nhật nền tảng"]
+  },
+  {
+    "id": "CR04",
+    "name": "Biên tập viên video",
+    "english_name": "",
+    "category": "creative",
+    "riasec": ["A", "R", "I"],
+    "description": "Kết hợp hình ảnh và âm thanh thành video.",
+    "responsibilities": ["Cắt dựng", "xử lý âm thanh", "phối hợp sản xuất"],
+    "skills": ["Tư duy hình ảnh", "Kiên nhẫn", "Sáng tạo"],
+    "subjects": ["Tin học", "Mỹ thuật", "Âm nhạc"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Studio", "đài truyền hình"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể làm việc theo thời hạn gấp"]
+  },
+  {
+    "id": "CR05",
+    "name": "Biên kịch / Người viết nội dung",
+    "english_name": "",
+    "category": "creative",
+    "riasec": ["A", "I", "E"],
+    "description": "Phát triển ý tưởng và câu chuyện bằng ngôn ngữ.",
+    "responsibilities": ["Nghiên cứu", "xây dựng cốt truyện", "biên tập"],
+    "skills": ["Viết lách", "Quan sát", "Sáng tạo"],
+    "subjects": ["Ngữ văn", "Lịch sử", "Ngoại ngữ"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Nhà xuất bản", "studio"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần luyện tập và chỉnh sửa nhiều"]
+  },
+  {
+    "id": "BU01",
+    "name": "Chuyên viên marketing",
+    "english_name": "",
+    "category": "business",
+    "riasec": ["E", "A", "S"],
+    "description": "Nghiên cứu khách hàng và triển khai tiếp thị.",
+    "responsibilities": ["Nghiên cứu thị trường", "chiến dịch", "đánh giá"],
+    "skills": ["Giao tiếp", "Phân tích", "Sáng tạo"],
+    "subjects": ["Toán", "Ngữ văn", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "công ty quảng cáo"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Thị hiếu và xu hướng thay đổi"]
+  },
+  {
+    "id": "BU02",
+    "name": "Chuyên viên tài chính",
+    "english_name": "",
+    "category": "business",
+    "riasec": ["C", "I", "E"],
+    "description": "Phân tích thông tin tài chính hỗ trợ quyết định.",
+    "responsibilities": ["Phân tích báo cáo", "mô hình", "ngân sách"],
+    "skills": ["Toán thống kê", "Phân tích", "Cẩn thận"],
+    "subjects": ["Toán", "Tin học", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Ngân hàng", "doanh nghiệp"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần độ chính xác cao"]
+  },
+  {
+    "id": "BU03",
+    "name": "Chuyên viên kế toán",
+    "english_name": "",
+    "category": "business",
+    "riasec": ["C", "I", "E"],
+    "description": "Ghi nhận và báo cáo nghiệp vụ tài chính.",
+    "responsibilities": ["Chứng từ", "đối chiếu", "báo cáo"],
+    "skills": ["Cẩn thận", "Tổ chức", "Tư duy số liệu"],
+    "subjects": ["Toán", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "đơn vị dịch vụ"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có kỳ báo cáo nhiều việc"]
+  },
+  {
+    "id": "BU04",
+    "name": "Chuyên viên nhân sự",
+    "english_name": "",
+    "category": "business",
+    "riasec": ["S", "E", "C"],
+    "description": "Hỗ trợ tuyển dụng và phát triển nhân lực.",
+    "responsibilities": ["Tuyển dụng", "đào tạo", "chính sách"],
+    "skills": ["Giao tiếp", "Lắng nghe", "Tổ chức"],
+    "subjects": ["Ngữ văn", "Tin học", "Pháp luật"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "tổ chức"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Xử lý tình huống nhạy cảm"]
+  },
+  {
+    "id": "BU05",
+    "name": "Nhà khởi nghiệp",
+    "english_name": "",
+    "category": "business",
+    "riasec": ["E", "A", "I"],
+    "description": "Khởi tạo và phát triển sản phẩm hoặc doanh nghiệp.",
+    "responsibilities": ["Phát hiện nhu cầu", "mô hình", "thử nghiệm"],
+    "skills": ["Chủ động", "Giải quyết vấn đề", "Quản lý rủi ro"],
+    "subjects": ["Toán", "Tin học", "Ngữ văn"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp mới"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Rủi ro và bất định cao"]
+  },
+  {
+    "id": "SO01",
+    "name": "Giáo viên",
+    "english_name": "",
+    "category": "education",
+    "riasec": ["S", "A", "I"],
+    "description": "Giảng dạy và hỗ trợ sự tiến bộ của người học.",
+    "responsibilities": ["Chuẩn bị bài", "tổ chức dạy", "đánh giá"],
+    "skills": ["Trình bày", "Kiên nhẫn", "Thấu hiểu"],
+    "subjects": ["Môn chuyên môn", "Ngữ văn", "Ngoại ngữ"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Trường học", "trung tâm"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần chuẩn bị và đánh giá thường xuyên"]
+  },
+  {
+    "id": "SO02",
+    "name": "Chuyên viên tâm lý",
+    "english_name": "",
+    "category": "education",
+    "riasec": ["S", "I", "A"],
+    "description": "Hỗ trợ nhu cầu tâm lý trong phạm vi chuyên môn.",
+    "responsibilities": ["Lắng nghe", "đánh giá phù hợp", "đề xuất hỗ trợ"],
+    "skills": ["Lắng nghe", "Đạo đức", "Quan sát"],
+    "subjects": ["Sinh học", "Ngữ văn", "Pháp luật"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Cơ sở giáo dục", "cơ sở chuyên môn"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần đào tạo bài bản và giám sát"]
+  },
+  {
+    "id": "SO03",
+    "name": "Nhân viên công tác xã hội",
+    "english_name": "",
+    "category": "education",
+    "riasec": ["S", "A", "I"],
+    "description": "Kết nối cá nhân và cộng đồng với nguồn lực hỗ trợ.",
+    "responsibilities": ["Đánh giá nhu cầu", "kết nối dịch vụ", "hỗ trợ cộng đồng"],
+    "skills": ["Thấu cảm", "Giao tiếp", "Giải quyết vấn đề"],
+    "subjects": ["Ngữ văn", "Pháp luật"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Tổ chức xã hội", "cơ sở cộng đồng"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể gặp hoàn cảnh phức tạp"]
+  },
+  {
+    "id": "SO04",
+    "name": "Chuyên viên đào tạo",
+    "english_name": "",
+    "category": "education",
+    "riasec": ["S", "E", "I"],
+    "description": "Thiết kế chương trình phát triển năng lực.",
+    "responsibilities": ["Khảo sát nhu cầu", "thiết kế nội dung", "đánh giá"],
+    "skills": ["Giao tiếp", "Thiết kế học liệu", "Tổ chức"],
+    "subjects": ["Ngữ văn", "Tin học", "Ngoại ngữ"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "trung tâm đào tạo"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần đánh giá hiệu quả chương trình"]
+  },
+  {
+    "id": "SO05",
+    "name": "Chuyên viên tư vấn hướng nghiệp",
+    "english_name": "",
+    "category": "education",
+    "riasec": ["S", "I", "E"],
+    "description": "Hỗ trợ người học khám phá và tìm hiểu nghề.",
+    "responsibilities": ["Trao đổi mục tiêu", "cung cấp thông tin", "lập kế hoạch"],
+    "skills": ["Lắng nghe", "Tổng hợp thông tin", "Giao tiếp"],
+    "subjects": ["Ngữ văn", "Pháp luật", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Trường học", "trung tâm hướng nghiệp"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Không quyết định thay người được tư vấn"]
+  },
+  {
+    "id": "HE01",
+    "name": "Bác sĩ",
+    "english_name": "",
+    "category": "health",
+    "riasec": ["I", "S", "R"],
+    "description": "Khám, chẩn đoán và điều trị bệnh.",
+    "responsibilities": ["Khám bệnh", "chỉ định điều trị", "theo dõi"],
+    "skills": ["Kiến thức y học", "Phân tích", "Giao tiếp"],
+    "subjects": ["Sinh học", "Hóa học", "Toán"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Bệnh viện", "phòng khám"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Đào tạo dài và trách nhiệm chuyên môn cao"]
+  },
+  {
+    "id": "HE02",
+    "name": "Điều dưỡng",
+    "english_name": "",
+    "category": "health",
+    "riasec": ["S", "I", "R"],
+    "description": "Chăm sóc và theo dõi người bệnh.",
+    "responsibilities": ["Theo dõi sức khỏe", "chăm sóc", "hướng dẫn"],
+    "skills": ["Thấu cảm", "Cẩn thận", "Làm việc nhóm"],
+    "subjects": ["Sinh học", "Hóa học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Bệnh viện", "phòng khám"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể làm việc theo ca"]
+  },
+  {
+    "id": "HE03",
+    "name": "Dược sĩ",
+    "english_name": "",
+    "category": "health",
+    "riasec": ["I", "C", "R"],
+    "description": "Tham gia cung ứng và tư vấn sử dụng thuốc an toàn.",
+    "responsibilities": ["Kiểm tra thông tin thuốc", "tư vấn", "quản lý chất lượng"],
+    "skills": ["Hóa – sinh", "Cẩn thận", "Giao tiếp"],
+    "subjects": ["Hóa học", "Sinh học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Nhà thuốc", "bệnh viện", "công ty dược"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần cập nhật kiến thức và quy định"]
+  },
+  {
+    "id": "HE04",
+    "name": "Kỹ thuật viên xét nghiệm y học",
+    "english_name": "",
+    "category": "health",
+    "riasec": ["I", "R", "C"],
+    "description": "Thực hiện xét nghiệm hỗ trợ chẩn đoán.",
+    "responsibilities": ["Xử lý mẫu", "vận hành thiết bị", "kiểm soát chất lượng"],
+    "skills": ["Cẩn thận", "Sinh học", "Quy trình"],
+    "subjects": ["Sinh học", "Hóa học", "Toán"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Bệnh viện", "phòng xét nghiệm"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Đòi hỏi tập trung và tuân thủ quy trình"]
+  },
+  {
+    "id": "HE05",
+    "name": "Chuyên viên vật lý trị liệu",
+    "english_name": "",
+    "category": "health",
+    "riasec": ["S", "I", "R"],
+    "description": "Hỗ trợ cải thiện vận động và chức năng.",
+    "responsibilities": ["Đánh giá vận động", "lập kế hoạch", "hướng dẫn tập"],
+    "skills": ["Kiến thức cơ thể", "Giao tiếp", "Kiên nhẫn"],
+    "subjects": ["Sinh học", "Vật lý"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Bệnh viện", "trung tâm phục hồi"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần kiên trì và thực hành chuyên môn"]
+  },
+  {
+    "id": "SC01",
+    "name": "Nhà nghiên cứu sinh học",
+    "english_name": "",
+    "category": "science",
+    "riasec": ["I", "R", "I"],
+    "description": "Nghiên cứu sinh vật và hệ thống sống.",
+    "responsibilities": ["Thiết kế nghiên cứu", "phân tích mẫu", "báo cáo"],
+    "skills": ["Quan sát", "Phân tích", "Kiên trì"],
+    "subjects": ["Sinh học", "Hóa học", "Toán"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Phòng thí nghiệm", "viện nghiên cứu"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Nghiên cứu có thể kéo dài"]
+  },
+  {
+    "id": "SC02",
+    "name": "Nhà nghiên cứu hóa học",
+    "english_name": "",
+    "category": "science",
+    "riasec": ["I", "R", "I"],
+    "description": "Nghiên cứu thành phần và biến đổi của chất.",
+    "responsibilities": ["Thiết kế thí nghiệm", "phân tích", "kiểm tra vật liệu"],
+    "skills": ["Tư duy khoa học", "Cẩn thận", "Phân tích"],
+    "subjects": ["Hóa học", "Toán", "Vật lý"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Phòng thí nghiệm", "doanh nghiệp"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần tuân thủ an toàn phòng thí nghiệm"]
+  },
+  {
+    "id": "SC03",
+    "name": "Nhà khoa học môi trường",
+    "english_name": "",
+    "category": "science",
+    "riasec": ["I", "R", "I"],
+    "description": "Nghiên cứu vấn đề môi trường và tài nguyên.",
+    "responsibilities": ["Thu thập dữ liệu", "đánh giá tác động", "đề xuất giải pháp"],
+    "skills": ["Nghiên cứu", "Phân tích", "Quan sát"],
+    "subjects": ["Sinh học", "Hóa học", "Địa lý"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Viện nghiên cứu", "tổ chức môi trường"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Có thể làm việc ngoài hiện trường"]
+  },
+  {
+    "id": "SC04",
+    "name": "Nhà vật lý học",
+    "english_name": "",
+    "category": "science",
+    "riasec": ["I", "R", "I"],
+    "description": "Nghiên cứu vật chất, năng lượng và quy luật tự nhiên.",
+    "responsibilities": ["Mô hình hóa", "thí nghiệm", "phân tích"],
+    "skills": ["Toán học", "Tư duy trừu tượng", "Nghiên cứu"],
+    "subjects": ["Vật lý", "Toán", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Đại học", "viện nghiên cứu"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Đòi hỏi nền tảng toán học cao"]
+  },
+  {
+    "id": "SC05",
+    "name": "Nhà khoa học dữ liệu nghiên cứu",
+    "english_name": "",
+    "category": "science",
+    "riasec": ["I", "C", "R"],
+    "description": "Phân tích dữ liệu phục vụ câu hỏi nghiên cứu.",
+    "responsibilities": ["Xử lý dữ liệu", "mô hình thống kê", "trình bày"],
+    "skills": ["Toán thống kê", "Lập trình", "Phản biện"],
+    "subjects": ["Toán", "Tin học", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Viện nghiên cứu", "đại học"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần kiểm tra sai lệch dữ liệu"]
+  },
+  {
+    "id": "SV01",
+    "name": "Luật sư",
+    "english_name": "",
+    "category": "services",
+    "riasec": ["E", "S", "I"],
+    "description": "Tư vấn pháp luật và bảo vệ quyền lợi hợp pháp.",
+    "responsibilities": ["Nghiên cứu hồ sơ", "tư vấn", "giải quyết tranh chấp"],
+    "skills": ["Lập luận", "Đọc hiểu", "Giao tiếp"],
+    "subjects": ["Ngữ văn", "Lịch sử", "Pháp luật"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Văn phòng luật", "doanh nghiệp"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần đáp ứng điều kiện hành nghề"]
+  },
+  {
+    "id": "SV02",
+    "name": "Chuyên viên pháp chế",
+    "english_name": "",
+    "category": "services",
+    "riasec": ["C", "I", "E"],
+    "description": "Hỗ trợ tổ chức tuân thủ quy định pháp luật.",
+    "responsibilities": ["Rà soát hợp đồng", "theo dõi quy định", "tư vấn nội bộ"],
+    "skills": ["Đọc hiểu", "Cẩn thận", "Phân tích"],
+    "subjects": ["Ngữ văn", "Pháp luật"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp", "ngân hàng"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần cập nhật quy định"]
+  },
+  {
+    "id": "SV03",
+    "name": "Chuyên viên logistics",
+    "english_name": "",
+    "category": "services",
+    "riasec": ["C", "S", "E"],
+    "description": "Điều phối lưu kho, vận chuyển và chuỗi cung ứng.",
+    "responsibilities": ["Theo dõi đơn hàng", "điều phối", "quản lý tồn kho"],
+    "skills": ["Tổ chức", "Giao tiếp", "Phân tích"],
+    "subjects": ["Toán", "Tin học", "Tiếng Anh"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Xuất nhập khẩu", "vận tải"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cần xử lý phát sinh"]
+  },
+  {
+    "id": "SV04",
+    "name": "Chuyên viên quản lý dự án",
+    "english_name": "",
+    "category": "services",
+    "riasec": ["E", "C", "S"],
+    "description": "Lập kế hoạch và điều phối nguồn lực dự án.",
+    "responsibilities": ["Tiến độ", "phối hợp nhóm", "theo dõi rủi ro"],
+    "skills": ["Tổ chức", "Giao tiếp", "Lãnh đạo"],
+    "subjects": ["Toán", "Tin học", "Ngữ văn"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp nhiều lĩnh vực"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Cân bằng nhiều yêu cầu"]
+  },
+  {
+    "id": "SV05",
+    "name": "Chuyên viên quản trị du lịch",
+    "english_name": "",
+    "category": "services",
+    "riasec": ["E", "S", "A"],
+    "description": "Tổ chức và vận hành dịch vụ du lịch.",
+    "responsibilities": ["Thiết kế dịch vụ", "điều phối", "xử lý phản hồi"],
+    "skills": ["Giao tiếp", "Ngoại ngữ", "Linh hoạt"],
+    "subjects": ["Địa lý", "Ngoại ngữ", "Tin học"],
+    "education": ["Tìm hiểu chương trình đào tạo chính quy và yêu cầu tuyển sinh của cơ sở đào tạo."],
+    "environment": ["Doanh nghiệp du lịch", "khách sạn"],
+    "advantages": ["Có cơ hội phát triển chuyên môn", "Có thể tiếp tục học hỏi và mở rộng kỹ năng"],
+    "challenges": ["Nhu cầu có thể biến động theo mùa"]
+  }
+];
+
+const KEY='30YL_state_v1';
+let questions=[],careers=[],state={profile:{},answers:{},current:0,result:null};
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const chapters={personality:{title:'Personality',desc:'Khám phá cách bạn suy nghĩ, cảm nhận và tương tác.',start:0,end:12},interests:{title:'Interests',desc:'Tìm hiểu những hoạt động khiến bạn tò mò.',start:12,end:22},strengths:{title:'Strengths',desc:'Nhận diện những năng lực bạn tự tin và muốn phát triển.',start:22,end:32},values:{title:'Values',desc:'Điều gì quan trọng với bạn trong công việc và cuộc sống?',start:32,end:40},life_choices:{title:'Life Choices',desc:'Khám phá cách bạn tiếp cận tình huống giả định.',start:40,end:50}};
+const bigNames={openness:'Cởi mở với trải nghiệm',conscientiousness:'Tận tâm',extraversion:'Hướng ngoại',agreeableness:'Hợp tác và dễ chịu',neuroticism:'Nhạy cảm với cảm xúc tiêu cực'};
+const riaNames={R:'Thực tế',I:'Nghiên cứu',A:'Nghệ thuật',S:'Xã hội',E:'Quản lý',C:'Nghiệp vụ'};
+const strengthNames={logic:'Tư duy logic',analysis:'Tư duy phân tích',communication:'Giao tiếp',empathy:'Thấu hiểu',creativity:'Sáng tạo',self_learning:'Tự học',focus:'Tập trung',teamwork:'Làm việc nhóm',adaptability:'Thích nghi',decision_making:'Ra quyết định'};
+const valueNames={financial:'Thu nhập và tài chính',purpose:'Ý nghĩa và đóng góp',stability:'Ổn định',flexibility:'Linh hoạt',expertise:'Phát triển chuyên môn',leadership:'Lãnh đạo',balance:'Cân bằng cuộc sống',achievement:'Thành tựu',recognition:'Ghi nhận cá nhân',contribution:'Đóng góp tập thể',learning:'Học hỏi',autonomy:'Tự chủ',structure:'Quy trình rõ ràng'};
+const tagNames={ANALYTICAL:'Phân tích',CREATIVE:'Sáng tạo',SOCIAL:'Hợp tác',ORGANIZED:'Tổ chức',EXPERIMENTAL:'Thử nghiệm',LEADERSHIP:'Chủ động dẫn dắt',ADAPTABILITY:'Thích nghi',RESEARCH:'Nghiên cứu'};
+const catNames={technology:'Công nghệ thông tin',engineering:'Kỹ thuật – Công nghệ',creative:'Sáng tạo – Truyền thông',business:'Kinh doanh – Quản trị',education:'Giáo dục – Xã hội',health:'Y tế – Sức khỏe',science:'Khoa học – Nghiên cứu',services:'Luật – Dịch vụ – Vận hành'};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let toastTimer;let resultCharts=[];
+let detailSourceScreen='library';
+let showAllMatches=false;
+
+const careerBigFiveProfiles = {
+  IT01: { primary: 'conscientiousness', secondary: 'openness' },
+  IT02: { primary: 'conscientiousness', secondary: 'openness' },
+  IT03: { primary: 'conscientiousness', secondary: 'openness' },
+  IT04: { primary: 'openness', secondary: 'conscientiousness' },
+  IT05: { primary: 'conscientiousness', secondary: 'openness' },
+  EN01: { primary: 'conscientiousness', secondary: 'openness' },
+  EN02: { primary: 'openness', secondary: 'conscientiousness' },
+  EN03: { primary: 'conscientiousness', secondary: 'openness' },
+  EN04: { primary: 'conscientiousness', secondary: 'openness' },
+  EN05: { primary: 'conscientiousness', secondary: 'openness' },
+  CR01: { primary: 'openness', secondary: 'conscientiousness' },
+  CR02: { primary: 'openness', secondary: 'agreeableness' },
+  CR03: { primary: 'openness', secondary: 'extraversion' },
+  CR04: { primary: 'openness', secondary: 'conscientiousness' },
+  CR05: { primary: 'openness', secondary: 'conscientiousness' },
+  BU01: { primary: 'extraversion', secondary: 'openness' },
+  BU02: { primary: 'conscientiousness', secondary: 'openness' },
+  BU03: { primary: 'conscientiousness', secondary: 'agreeableness' },
+  BU04: { primary: 'agreeableness', secondary: 'extraversion' },
+  BU05: { primary: 'extraversion', secondary: 'openness' },
+  SO01: { primary: 'agreeableness', secondary: 'extraversion' },
+  SO02: { primary: 'agreeableness', secondary: 'openness' },
+  SO03: { primary: 'agreeableness', secondary: 'conscientiousness' },
+  SO04: { primary: 'extraversion', secondary: 'conscientiousness' },
+  SO05: { primary: 'agreeableness', secondary: 'openness' },
+  HE01: { primary: 'agreeableness', secondary: 'conscientiousness' },
+  HE02: { primary: 'agreeableness', secondary: 'conscientiousness' },
+  HE03: { primary: 'conscientiousness', secondary: 'agreeableness' },
+  HE04: { primary: 'conscientiousness', secondary: 'openness' },
+  HE05: { primary: 'agreeableness', secondary: 'conscientiousness' },
+  SC01: { primary: 'openness', secondary: 'conscientiousness' },
+  SC02: { primary: 'openness', secondary: 'conscientiousness' },
+  SC03: { primary: 'openness', secondary: 'conscientiousness' },
+  SC04: { primary: 'openness', secondary: 'conscientiousness' },
+  SC05: { primary: 'openness', secondary: 'conscientiousness' },
+  SV01: { primary: 'conscientiousness', secondary: 'extraversion' },
+  SV02: { primary: 'conscientiousness', secondary: 'openness' },
+  SV03: { primary: 'conscientiousness', secondary: 'openness' },
+  SV04: { primary: 'conscientiousness', secondary: 'extraversion' },
+  SV05: { primary: 'extraversion', secondary: 'agreeableness' }
+};
+
+const archetypes = {
+  RI: { code: 'RI', en: 'The Analytical Explorer', vn: 'Nhà Khám Phá Phân Tích', keywords: ['Thực tế', 'Nghiên cứu', 'Công nghệ'], desc: 'Bạn có xu hướng quan sát thế giới qua lăng kính kỹ thuật và thích tìm hiểu các nguyên lý khoa học phía sau các hệ thống vận hành.', advice: 'Hãy thử sức với các dự án STEM, lập trình phần cứng hoặc nghiên cứu ứng dụng thực tế để phát huy thế mạnh.' },
+  IR: { code: 'IR', en: 'The Scientific Pioneer', vn: 'Nhà Tiên Phong Khoa Học', keywords: ['Nghiên cứu', 'Thực nghiệm', 'Quy luật'], desc: 'Bạn có xu hướng say mê nghiên cứu chuyên sâu, tìm hiểu nguyên nhân gốc rễ và kiểm chứng các quy luật tự nhiên qua dữ liệu.', advice: 'Hãy tham gia các dự án nghiên cứu khoa học, đọc tài liệu chuyên khảo và trải nghiệm phương pháp nghiên cứu thực nghiệm.' },
+  IA: { code: 'IA', en: 'The Creative Researcher', vn: 'Nhà Nghiên Cứu Sáng Tạo', keywords: ['Tri thức', 'Ý tưởng', 'Đột phá'], desc: 'Bạn có xu hướng kết hợp chiều sâu tư duy lý thuyết với những ý tưởng mới mẻ để tiếp cận vấn đề một cách độc đáo.', advice: 'Hãy thử nghiệm các hình thức trình bày ý tưởng mới như viết luận sáng tạo, thiết kế thông tin trực quan hoặc nghiên cứu liên ngành.' },
+  AI: { code: 'AI', en: 'The Conceptual Designer', vn: 'Nhà Thiết Kế Ý Niệm', keywords: ['Ý niệm', 'Thẩm mỹ', 'Chiều sâu'], desc: 'Bạn có xu hướng sáng tạo dựa trên nền tảng tìm hiểu sâu sắc, thích lồng ghép thông điệp và ý nghĩa chiều sâu vào tác phẩm.', advice: 'Hãy rèn luyện kỹ năng tư duy thiết kế, xây dựng câu chuyện cho sản phẩm và học hỏi từ các trường phái nghệ thuật.' },
+  IS: { code: 'IS', en: 'The Human-Centered Inquirer', vn: 'Nhà Nghiên Cứu Vị Nhân Sinh', keywords: ['Khoa học', 'Con người', 'Ý nghĩa'], desc: 'Bạn có xu hướng quan tâm đến các vấn đề liên quan đến con người, sức khỏe, tâm lý và xã hội dưới góc nhìn khoa học.', advice: 'Hãy tham gia các hoạt động khảo sát cộng đồng, dự án tâm lý học đường hoặc tìm hiểu y sinh học ứng dụng.' },
+  SI: { code: 'SI', en: 'The Insightful Mentor', vn: 'Người Hướng Dẫn Thấu Cảm', keywords: ['Thấu hiểu', 'Định hướng', 'Giáo dục'], desc: 'Bạn có xu hướng lắng nghe, đồng cảm kết hợp với tư duy phân tích để giúp đỡ người khác tháo gỡ khó khăn.', advice: 'Hãy thử sức với vai trò người trợ giảng, thành viên ban tư vấn bạn bè hoặc tình nguyện viên hỗ trợ học tập.' },
+  IE: { code: 'IE', en: 'The Intellectual Strategist', vn: 'Chiến Lược Gia Tri Thức', keywords: ['Chiến lược', 'Dữ liệu', 'Tầm nhìn'], desc: 'Bạn có xu hướng sử dụng tri thức và dữ liệu để xây dựng định hướng phát triển và giải pháp tối ưu cho tổ chức.', advice: 'Hãy tìm hiểu về phân tích kinh doanh, dự báo xu hướng thị trường và thử xây dựng kế hoạch dự án thực tế.' },
+  EI: { code: 'EI', en: 'The Visionary Innovator', vn: 'Nhà Đổi Mới Tầm Nhìn', keywords: ['Khởi xướng', 'Tầm nhìn', 'Cải tiến'], desc: 'Bạn có xu hướng chủ động khởi xướng các ý tưởng mới và thích dẫn dắt tập thể hướng đến những mục tiêu đột phá.', advice: 'Hãy thử dẫn dắt một nhóm dự án nhỏ, tham gia các cuộc thi ý tưởng đổi mới hoặc học cách trình bày thuyết phục.' },
+  IC: { code: 'IC', en: 'The Methodical Analyst', vn: 'Chuyên Gia Phân Tích Hệ Thống', keywords: ['Hệ thống', 'Chính xác', 'Logic'], desc: 'Bạn có xu hướng làm việc chặt chẽ với dữ liệu, thích sự chính xác và việc tổ chức thông tin theo trật tự logic rõ ràng.', advice: 'Hãy thực hành kỹ năng xử lý dữ liệu, học ngôn ngữ lập trình thống kê hoặc xây dựng bảng tính tự động hóa.' },
+  CI: { code: 'CI', en: 'The Information Architect', vn: 'Kiến Trúc Sư Thông Tin', keywords: ['Quy chuẩn', 'Cấu trúc', 'Dữ liệu'], desc: 'Bạn có xu hướng xây dựng và duy trì các hệ thống thông tin, quy trình làm việc chuẩn mực và đáng tin cậy.', advice: 'Hãy khám phá các lĩnh vực như cơ sở dữ liệu, quản trị thông tin hoặc tiêu chuẩn quản lý chất lượng.' },
+  RA: { code: 'RA', en: 'The Practical Creator', vn: 'Nhà Chế Tác Thực Tiễn', keywords: ['Chế tác', 'Vật liệu', 'Khéo léo'], desc: 'Bạn có xu hướng thích tạo ra những sản phẩm hữu hình kết hợp giữa độ khéo léo kỹ thuật và tính thẩm mỹ.', advice: 'Hãy thử sức với thiết kế công nghiệp, thủ công mỹ nghệ, mô hình kiến trúc hoặc in 3D.' },
+  AR: { code: 'AR', en: 'The Hands-on Designer', vn: 'Nhà Thiết Kế Thực Nghiệm', keywords: ['Tạo mẫu', 'Không gian', 'Chất liệu'], desc: 'Bạn có xu hướng thích biến những phác thảo trừu tượng thành mô hình thực tế, hiểu rõ chất liệu và không gian.', advice: 'Hãy thực hành với các phần mềm dựng hình 3D, thử nghiệm chất liệu mới và xây dựng các nguyên mẫu thử nghiệm.' },
+  RS: { code: 'RS', en: 'The Practical Collaborator', vn: 'Người Đồng Hành Kỹ Thuật', keywords: ['Kỹ thuật', 'Hiện trường', 'Hợp tác'], desc: 'Bạn có xu hướng thích làm công việc kỹ thuật, thực địa nhưng luôn coi trọng sự phối hợp nhịp nhàng với đồng nghiệp.', advice: 'Hãy tham gia các dự án kỹ thuật có tính cộng đồng, hoạt động bảo dưỡng thiết bị hoặc chế tạo theo nhóm.' },
+  SR: { code: 'SR', en: 'The Direct Caregiver', vn: 'Người Trợ Giúp Thực Tế', keywords: ['Tận tụy', 'Hành động', 'Thực tế'], desc: 'Bạn có xu hướng thích giúp đỡ người khác bằng những hành động cụ thể, hữu hình và có ích ngay trong đời sống.', advice: 'Hãy học các kỹ năng sơ cấp cứu, kỹ thuật phục hồi chức năng hoặc tham gia các hoạt động công ích cứu trợ.' },
+  RE: { code: 'RE', en: 'The Technical Manager', vn: 'Nhà Quản Lý Kỹ Thuật', keywords: ['Thiết bị', 'Điều hành', 'Thực tiễn'], desc: 'Bạn có xu hướng yêu thích công nghệ, thiết bị nhưng cũng muốn phát triển khả năng chỉ đạo và giám sát thi công.', advice: 'Hãy rèn luyện thêm kỹ năng giao tiếp, lập bảng theo dõi tiến độ và học cách ủy quyền công việc cho nhóm.' },
+  ER: { code: 'ER', en: 'The Practical Leader', vn: 'Nhà Điều Hành Thực Nghiệm', keywords: ['Hiện trường', 'Quyết đoán', 'Sản xuất'], desc: 'Bạn có xu hướng thích quản lý và điều hành những dự án gắn với máy móc, xây dựng, sản xuất hoặc logistics thực địa.', advice: 'Hãy trải nghiệm quản lý đội nhóm thi công kỹ thuật, tham quan nhà máy hoặc tìm hiểu về quản trị sản xuất.' },
+  RC: { code: 'RC', en: 'The Precision Technician', vn: 'Kỹ Thuật Viên Chuẩn Xác', keywords: ['Quy chuẩn', 'Kỹ thuật', 'An toàn'], desc: 'Bạn có xu hướng làm việc kiên nhẫn với các thiết bị kỹ thuật đòi hỏi sự cẩn trọng và tuân thủ quy trình an toàn nghiêm ngặt.', advice: 'Hãy làm quen với việc đọc sơ đồ kỹ thuật, bảo trì thiết bị và thực hành các tiêu chuẩn kiểm tra chất lượng.' },
+  CR: { code: 'CR', en: 'The Operations Specialist', vn: 'Chuyên Viên Tiêu Chuẩn Kỹ Thuật', keywords: ['Hồ sơ', 'Kiểm soát', 'Quy trình'], desc: 'Bạn có xu hướng thích quản lý hồ sơ kỹ thuật, theo dõi thông số vận hành và duy trì sự ổn định của hệ thống.', advice: 'Hãy trau dồi kỹ năng quản lý dữ liệu kiểm định, tìm hiểu quy chuẩn ISO và bảo trì tài liệu kỹ thuật số.' },
+  SE: { code: 'SE', en: 'The People Catalyst', vn: 'Người Thúc Đẩy Hợp Tác', keywords: ['Gắn kết', 'Lan tỏa', 'Hành động'], desc: 'Bạn có xu hướng thích kết nối mọi người, xây dựng tinh thần đồng đội và tạo ra ảnh hưởng tích cực trong tập thể.', advice: 'Hãy tham gia ban điều hành câu lạc bộ, tổ chức các sự kiện thanh niên hoặc hoạt động giao lưu văn hóa.' },
+  ES: { code: 'ES', en: 'The Dynamic Leader', vn: 'Nhà Lãnh Đạo Năng Động', keywords: ['Dẫn dắt', 'Thuyết phục', 'Kết nối'], desc: 'Bạn có xu hướng nhiệt huyết, chủ động truyền cảm hứng và thích tập hợp các nguồn lực để đạt được mục tiêu chung.', advice: 'Hãy rèn luyện kỹ năng đàm phán, quản lý xung đột và học cách lắng nghe phản hồi từ các thành viên trong nhóm.' },
+  SA: { code: 'SA', en: 'The Expressive Educator', vn: 'Người Truyền Cảm Hứng Giáo Dục', keywords: ['Truyền cảm hứng', 'Ngôn từ', 'Phát triển'], desc: 'Bạn có xu hướng sử dụng ngôn từ, nghệ thuật và sự ấm áp để truyền đạt kiến thức và chạm đến cảm xúc người khác.', advice: 'Hãy thử sức với viết lách, thuyết trình trước đám đông hoặc tổ chức các buổi chia sẻ kỹ năng cho bạn bè.' },
+  AS: { code: 'AS', en: 'The Empathetic Artist', vn: 'Nghệ Sĩ Lan Tỏa Cảm Xúc', keywords: ['Cảm xúc', 'Sáng tạo', 'Nhân văn'], desc: 'Bạn có xu hướng dùng các hình thức sáng tạo để biểu đạt trải nghiệm con người và xây dựng sự đồng cảm xã hội.', advice: 'Hãy sáng tạo các tác phẩm mang thông điệp xã hội, làm phim ngắn hoặc tham gia các dự án nghệ thuật cộng đồng.' },
+  SC: { code: 'SC', en: 'The Dedicated Coordinator', vn: 'Người Điều Phối Tận Tâm', keywords: ['Chu đáo', 'Điều phối', 'Hỗ trợ'], desc: 'Bạn có xu hướng quan tâm chu đáo đến nhu cầu của mọi người và thích duy trì môi trường làm việc ổn định, trật tự.', advice: 'Hãy phát triển kỹ năng quản lý thời gian, điều phối hậu cần sự kiện và chăm sóc các mối quan hệ tập thể.' },
+  CS: { code: 'CS', en: 'The Supportive Administrator', vn: 'Người Quản Trị Hỗ Trợ', keywords: ['Tổ chức', 'Quy trình', 'Đồng hành'], desc: 'Bạn có xu hướng hỗ trợ người khác bằng cách thiết lập quy trình làm việc rõ ràng, minh bạch và có thể dự đoán.', advice: 'Hãy tìm hiểu về quản trị hành chính, chăm sóc khách hàng chuyên nghiệp hoặc xây dựng tài liệu hướng dẫn.' },
+  EC: { code: 'EC', en: 'The Strategic Builder', vn: 'Nhà Xây Dựng Chiến Lược', keywords: ['Kế hoạch', 'Nguồn lực', 'Thực thi'], desc: 'Bạn có xu hướng thích biến những ý tưởng lớn thành các bước triển khai cụ thể, có kiểm soát rủi ro và ngân sách.', advice: 'Hãy học cách lập kế hoạch kinh doanh nhỏ, quản lý tài chính cá nhân và làm quen với phần mềm quản lý dự án.' },
+  CE: { code: 'CE', en: 'The Operations Director', vn: 'Nhà Quản Trị Vận Hành', keywords: ['Tối ưu', 'Hiệu suất', 'Vận hành'], desc: 'Bạn có xu hướng theo đuổi sự tối ưu, thích thiết lập các cơ chế quản trị tài chính và kiểm soát chất lượng chặt chẽ.', advice: 'Hãy tìm hiểu về quản trị chuỗi cung ứng, phân tích chi phí - lợi ích và các phương pháp nâng cao hiệu suất làm việc.' },
+  EA: { code: 'EA', en: 'The Creative Entrepreneur', vn: 'Doanh Nhân Sáng Tạo', keywords: ['Ý tưởng', 'Thương mại', 'Đổi mới'], desc: 'Bạn có xu hướng nhận ra tiềm năng thương mại trong các ý tưởng sáng tạo và thích xây dựng thương hiệu mới lạ.', advice: 'Hãy tìm hiểu về khởi nghiệp sáng tạo, marketing số và xây dựng danh mục dự án cá nhân.' },
+  AE: { code: 'AE', en: 'The Enterprising Artist', vn: 'Nghệ Sĩ Khởi Nghiệp', keywords: ['Bản sắc', 'Thương hiệu', 'Tự chủ'], desc: 'Bạn có xu hướng muốn đưa những sản phẩm nghệ thuật độc đáo ra thị trường và khẳng định dấu ấn cá nhân.', advice: 'Hãy trau dồi cả kỹ năng chuyên môn nghệ thuật lẫn kiến thức bản quyền, truyền thông và kinh doanh sáng tạo.' },
+  AC: { code: 'AC', en: 'The Structured Creative', vn: 'Nhà Sáng Tạo Quy Chuẩn', keywords: ['Biên tập', 'Bố cục', 'Chỉn chu'], desc: 'Bạn có xu hướng sáng tạo nhưng yêu cầu cao về cấu trúc, bố cục chặt chẽ và sự nhất quán trong từng chi tiết.', advice: 'Hãy thử sức trong các lĩnh vực như dàn trang sách báo, thiết kế hệ thống nhận diện thương hiệu hoặc biên tập nội dung.' },
+  CA: { code: 'CA', en: 'The Creative Administrator', vn: 'Nhà Quản Trị Trình Bày', keywords: ['Trình bày', 'Trực quan', 'Khoa học'], desc: 'Bạn có xu hướng thích biến những số liệu, quy trình phức tạp thành các bản báo cáo trực quan, đẹp mắt và dễ hiểu.', advice: 'Hãy nâng cao kỹ năng thiết kế báo cáo tài chính trực quan, dashboard số liệu hoặc tài liệu đào tạo nội bộ.' },
+  fallback: { code: 'Curious', en: 'The Curious Explorer', vn: 'Người Khám Phá Tò Mò', keywords: ['Tò mò', 'Mở rộng', 'Thử nghiệm'], desc: 'Bạn đang có sự quan tâm phân bố khá đồng đều ở nhiều lĩnh vực khác nhau và chưa có xu hướng thiên lệch rõ nét.', advice: 'Đây là thời điểm tuyệt vời để bạn trải nghiệm nhiều hoạt động ngoại khóa, câu lạc bộ và thử thách mới để hiểu rõ hơn điều gì thực sự truyền cảm hứng cho mình.' }
+};
+
+const archetypeIcons = {
+  RI: '⌕', IR: '⚗', IA: '✧', AI: '◇', IS: '◎', SI: '◈',
+  IE: '⌘', EI: '↗', IC: '▦', CI: '⌥', RA: '⚒', AR: '◷',
+  RS: '◎', SR: '♡', RE: '⚙', ER: '🏗', RC: '📐', CR: '📋',
+  AE: '🎭', EA: '💡', AS: '🎨', SA: '📖', AC: '🖋', CA: '📊',
+  SE: '🤝', ES: '🌟', SC: '🕊', CS: '📑', EC: '🏢', CE: '📈',
+  fallback: '✦'
+};
+
+function toast(s){const e=$('#toast');e.textContent=s;e.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>e.classList.remove('show'),2300)}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));updateNavState();}catch(e){toast('Không thể lưu dữ liệu trên trình duyệt này.')}}
+function load(){try{const x=JSON.parse(localStorage.getItem(KEY)||'null');if(x)state={...state,...x,profile:x.profile||{},answers:x.answers||{}}}catch(e){localStorage.removeItem(KEY)}}
+
+function updateNavState(){
+  const hasFinished = Boolean(state.result && Object.keys(state.answers).length === 50);
+  const inProgress = !hasFinished && Object.keys(state.answers).length > 0;
+
+  const navRes = $('#navResultsBtn');
+  const topRes = $('#topbarResultsBtn');
+  const heroRes = $('#heroResultsBtn');
+  if(navRes) navRes.style.display = hasFinished ? 'inline-flex' : 'none';
+  if(topRes) topRes.style.display = hasFinished ? 'inline-flex' : 'none';
+  if(heroRes) heroRes.style.display = hasFinished ? 'inline-flex' : 'none';
+
+  $$('[data-action="start"]').forEach(b => {
+    if(hasFinished){
+      b.innerHTML = 'Làm bài lại ↻';
+      b.onclick = restart;
+    } else if(inProgress){
+      b.innerHTML = `Tiếp tục làm bài (${state.current + 1}/50) ↗`;
+      b.onclick = () => { beginQuiz(); };
+    } else {
+      b.innerHTML = 'Bắt đầu ↗';
+      b.onclick = profileStart;
+    }
+  });
+}
+
+function go(id){
+  $$('.screen').forEach(x=>x.classList.toggle('active',x.id===id));
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(id==='library')renderLibrary();
+  if(id==='results'&&state.result)renderResults();
+  if(id==='letter')renderLetter();
+  updateNavState();
+}
+
+function profileStart(){const p=state.profile||{};$('#nickname').value=p.nickname||'';$('#grade').value=p.grade||'';$('#age').value=p.age||'';$('#note').value=p.note||'';$$('#subjects .chip').forEach(b=>b.classList.toggle('selected',(p.subjects||[]).includes(b.textContent)));go('profile')}
+function chapterAt(i){return Object.entries(chapters).find(([k,v])=>i>=v.start&&i<v.end)}
+function beginQuiz(){if(!questions.length)return toast('Dữ liệu câu hỏi chưa tải xong.');state.current=Math.min(state.current||0,49);save();renderQuestion();go('quiz')}
+
+function renderQuestion(){
+  const q=questions[state.current],[key,ch]=chapterAt(state.current);
+  const chIdx=Object.keys(chapters).indexOf(key)+1;
+  const chCurrent=state.current-ch.start+1;
+  const chTotal=ch.end-ch.start;
+
+  $('#counter').innerHTML=`<span>CÂU <strong>${String(state.current+1).padStart(2,'0')}</strong> / 50</span> <small style="color:var(--lav);margin-left:8px;font-size:11px;">(Chương ${chIdx}: ${chCurrent}/${chTotal})</small>`;
+  $('#progress').style.width=`${(state.current/50)*100}%`;
+  $('#chapterNo').textContent=`CHAPTER ${chIdx} · ${key.toUpperCase()}`;
+  $('#chapterTitle').textContent=ch.title;
+  $('#chapterDesc').textContent=ch.desc;
+  $('#qtext').textContent=q.text;
+  
+  const chProgEl=$('#chapterProgressText');
+  if(chProgEl) chProgEl.textContent=`Tiến độ Chương ${chIdx}: ${chCurrent}/${chTotal} câu`;
+
+  $('#qtype').textContent=q.type==='likert'?(key==='personality'?'PERSONALITY · SELF REFLECTION':key==='interests'?'INTERESTS · ACTIVITY PREFERENCE':'SELF-ASSESSMENT · 1–5'):q.type==='choice'?'VALUES · FORCED CHOICE':'LIFE CHOICES · SCENARIO';
+  $('#qhint').textContent=q.type==='likert'?(key==='interests'?'Bạn hứng thú với hoạt động này ở mức độ nào?':'Bạn đồng ý với nhận định này ở mức độ nào?'):'Hãy chọn phương án gần với cách bạn thường ưu tiên. Không có đáp án đúng hay sai.';
+  
+  const opts=q.type==='likert'?[['1','Hoàn toàn không đồng ý'],['2','Không đồng ý'],['3','Phân vân / Bình thường'],['4','Đồng ý'],['5','Hoàn toàn đồng ý']]:q.options.map(o=>[o.id,o.text]);
+  $('#options').innerHTML=opts.map(([id,t])=>`<button class="option ${String(state.answers[q.id])===String(id)?'selected':''}" data-answer="${id}"><span class="key">${id}</span><span>${esc(t)}</span></button>`).join('');
+  $$('#options .option').forEach(b=>b.onclick=()=>{
+    state.answers[q.id]=q.type==='likert'?Number(b.dataset.answer):b.dataset.answer;
+    save();
+    renderQuestion();
+  });
+  $('#previous').disabled=state.current===0;
+  $('#next').disabled=state.answers[q.id]===undefined;
+  $('#next').innerHTML=state.current===49?'Hoàn thành ✧':'Tiếp tục →';
+  $('#answered').textContent=`${Object.keys(state.answers).length}/50 đã trả lời`;
+  $('#chapterDots').innerHTML=Object.entries(chapters).map(([k,v])=>`<span class="${state.current>=v.start?'done':''}"></span>`).join('');
+}
+
+function handleQuizKeydown(e){
+  const quizScreen=$('#quiz');
+  if(!quizScreen||!quizScreen.classList.contains('active'))return;
+  if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;
+  const q=questions[state.current];
+  if(!q)return;
+  if(q.type==='likert'&&['1','2','3','4','5'].includes(e.key)){
+    e.preventDefault();
+    state.answers[q.id]=Number(e.key);
+    save();
+    renderQuestion();
+    return;
+  }
+  if(q.type!=='likert'){
+    const keyUpper=e.key.toUpperCase();
+    const optIds=(q.options||[]).map(o=>o.id);
+    if(optIds.includes(keyUpper)){
+      e.preventDefault();
+      state.answers[q.id]=keyUpper;
+      save();
+      renderQuestion();
+      return;
+    }
+    const num=parseInt(e.key,10);
+    if(!isNaN(num)&&num>=1&&num<=optIds.length){
+      e.preventDefault();
+      state.answers[q.id]=optIds[num-1];
+      save();
+      renderQuestion();
+      return;
+    }
+  }
+  if(e.key==='Enter'){
+    if(state.answers[q.id]!==undefined){
+      e.preventDefault();
+      next();
+    }
+    return;
+  }
+  if(e.key==='ArrowLeft'){
+    if(state.current>0){
+      e.preventDefault();
+      prev();
+    }
+    return;
+  }
+  if(e.key==='ArrowRight'){
+    if(state.answers[q.id]!==undefined){
+      e.preventDefault();
+      next();
+    }
+    return;
+  }
+}
+
+function next(){if(state.answers[questions[state.current].id]===undefined)return toast('Hãy chọn một phương án trước khi tiếp tục.');if(state.current<49){state.current++;save();renderQuestion()}else analyze()}
+function prev(){if(state.current>0){state.current--;save();renderQuestion()}}
+function avg(a){return a.length?a.reduce((x,y)=>x+y,0)/a.length:0}
+function norm(v){return Math.round((v-1)/4*100)}
+
+function calculate(){
+  const get=id=>state.answers[id],personality={};
+  const groups={openness:['P01','P02','P03'],conscientiousness:['P04','P05','P06'],extraversion:['P07','P08'],agreeableness:['P09','P10'],neuroticism:['P11','P12']};
+  for(const [d,ids] of Object.entries(groups)){
+    const vals=ids.map(id=>{const q=questions.find(x=>x.id===id),v=Number(get(id));return q.reverse?6-v:v});
+    personality[d]=norm(avg(vals));
+  }
+  const iGroups={R:[],I:[],A:[],S:[],E:[],C:[]};
+  questions.filter(q=>q.chapter==='interests').forEach(q=>{
+    if(get(q.id)!==undefined)iGroups[q.dimension.toUpperCase()].push(Number(get(q.id)));
+  });
+  const interests={};
+  Object.entries(iGroups).forEach(([k,a])=>interests[k]=a.length?norm(avg(a)):0);
+
+  const strengthScores={};
+  questions.filter(q=>q.chapter==='strengths').forEach(q=>strengthScores[q.dimension]=norm(Number(get(q.id))));
+
+  const valueScores={},scenarioScores={};
+  questions.filter(q=>q.chapter==='values'||q.chapter==='life_choices').forEach(q=>{
+    const o=q.options.find(x=>x.id===get(q.id));
+    (o?.tags||[]).forEach(t=>{
+      const target=q.chapter==='values'?valueScores:scenarioScores;
+      target[t]=(target[t]||0)+1;
+    });
+  });
+
+  const topInterests=Object.entries(interests).sort((a,b)=>b[1]-a[1]).slice(0,3),
+        topStrengths=Object.entries(strengthScores).sort((a,b)=>b[1]-a[1]).slice(0,3),
+        topTags=Object.entries(scenarioScores).sort((a,b)=>b[1]-a[1]).slice(0,4);
+
+  const skillMap={
+    logic:['IT01','IT02','IT03','IT04','IT05','EN01','EN02','EN03','EN04','EN05','SC04','SC05'],
+    analysis:['IT02','IT03','IT04','BU02','SC01','SC02','SC03','SC04','SC05','SV02'],
+    communication:['CR03','BU01','BU04','SO01','SO04','SO05','SV01','SV04'],
+    empathy:['SO01','SO02','SO03','SO05','HE01','HE02','HE05'],
+    creativity:['CR01','CR02','CR03','CR04','CR05','BU01','BU05'],
+    self_learning:['IT01','IT02','IT04','SC01','SC02','SC04'],
+    focus:['IT02','BU03','HE03','HE04','SC02','EN05','SV02'],
+    teamwork:['EN01','EN02','BU04','SO01','HE01','HE02','SV04'],
+    adaptability:['IT01','IT02','CR03','BU05','SV03','SV05'],
+    decision_making:['IT03','BU02','BU05','SV04','EN05','SV02']
+  };
+
+  const valueMaxCounts={};
+  questions.filter(q=>q.chapter==='values').forEach(q=>{
+    const seen=new Set();
+    (q.options||[]).forEach(o=>(o.tags||[]).forEach(t=>seen.add(t)));
+    seen.forEach(t=>{valueMaxCounts[t]=(valueMaxCounts[t]||0)+1});
+  });
+
+  const matches=careers.map(c=>{
+    const distinctCodes=[...new Set(c.riasec)];
+    let interest=0;
+    if(distinctCodes.length>=3){
+      interest=(3*(interests[distinctCodes[0]]||0)+2*(interests[distinctCodes[1]]||0)+1*(interests[distinctCodes[2]]||0))/6;
+    }else if(distinctCodes.length===2){
+      interest=(3*(interests[distinctCodes[0]]||0)+2*(interests[distinctCodes[1]]||0))/5;
+    }else if(distinctCodes.length===1){
+      interest=interests[distinctCodes[0]]||0;
+    }
+    interest=Math.round(interest);
+
+    const relevant=Object.entries(strengthScores).filter(([k])=>(skillMap[k]||[]).includes(c.id)).map(([,v])=>v);
+    const strength=relevant.length?Math.round(avg(relevant)):50;
+
+    const prof=careerBigFiveProfiles[c.id]||{primary:'conscientiousness',secondary:'openness'};
+    const p1=personality[prof.primary]??50;
+    const p2=personality[prof.secondary]??50;
+    const p=Math.round(0.60*p1+0.40*p2);
+
+    const valueTags={
+      technology:['learning','autonomy','expertise'],
+      engineering:['expertise','achievement','stability'],
+      creative:['autonomy','achievement','flexibility'],
+      business:['financial','achievement','leadership'],
+      education:['purpose','contribution','balance'],
+      health:['purpose','contribution','stability'],
+      science:['learning','expertise','purpose'],
+      services:['stability','structure','financial']
+    };
+    const vt=valueTags[c.category]||[];
+    const valueFit=vt.length?Math.round(avg(vt.map(k=>Math.min(100,Math.round(((valueScores[k]||0)/(valueMaxCounts[k]||1))*100))))):50;
+
+    const score=Math.round(.55*interest+.25*strength+.10*p+.10*valueFit);
+    return {...c,score,details:{interest,strength,p,valueFit}};
+  }).sort((a,b)=>b.score-a.score);
+
+  const diff=topInterests[0][1]-topInterests[1][1];
+  const isBalanced=topInterests[0][1]===0||(diff<=5&&topInterests[0][1]<40);
+  const code=topInterests.slice(0,2).map(x=>x[0]).join('');
+  const arch=(!isBalanced&&archetypes[code])?archetypes[code]:archetypes.fallback;
+
+  return {
+    personality,
+    interests,
+    strengthScores,
+    valueScores,
+    scenarioScores,
+    topInterests,
+    topStrengths,
+    topTags,
+    matches:matches.slice(0,6),
+    archetype:arch.en,
+    archetypeVn:arch.vn,
+    archetypeDesc:arch.desc,
+    archetypeKeywords:arch.keywords,
+    archetypeAdvice:arch.advice,
+    archetypeCode:arch.code||code
+  };
+}
+
+function analyze(){
+  go('analyzing');
+  let i=0;
+  const msgs=['Tổng hợp câu trả lời của bạn...','Nhận diện xu hướng nổi bật...','Đối chiếu thư viện nghề nghiệp...','Hoàn thiện hồ sơ khám phá...'];
+  $('#analyzeProgress').style.width='0%';
+  const timer=setInterval(()=>{
+    i++;
+    $('#analyzeProgress').style.width=i*25+'%';
+    $('#analyzeMsg').textContent=msgs[i-1];
+    if(i===4){
+      clearInterval(timer);
+      state.result=calculate();
+      save();
+      go('results');
+    }
+  },400);
+}
+
+function destroyResultCharts(){resultCharts.forEach(c=>c.destroy());resultCharts=[]}
+function makeRadar(id,labels,values,max=100){
+  const canvas=document.getElementById(id);
+  if(!canvas||!window.Chart)return;
+  const chart=new Chart(canvas,{
+    type:'radar',
+    data:{
+      labels,
+      datasets:[{
+        data:values,
+        fill:true,
+        backgroundColor:'rgba(166,160,255,.20)',
+        borderColor:'#b49cff',
+        borderWidth:2.5,
+        pointBackgroundColor:'#b5e7f5',
+        pointBorderColor:'#fff',
+        pointBorderWidth:2,
+        pointRadius:4,
+        pointHoverRadius:6
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#101a30',
+          titleColor:'#fff',
+          bodyColor:'#dce4f4',
+          borderColor:'#ffffff30',
+          borderWidth:1,
+          callbacks:{label:c=>` ${c.formattedValue}/100`}
+        }
+      },
+      scales:{
+        r:{
+          min:0,
+          max,
+          beginAtZero:true,
+          ticks:{display:false,stepSize:20},
+          grid:{color:'rgba(255,255,255,.12)'},
+          angleLines:{color:'rgba(255,255,255,.14)'},
+          pointLabels:{
+            color:'#d6dced',
+            font:{family:'Be Vietnam Pro',size:10,weight:'500'},
+            padding:10
+          }
+        }
+      }
+    }
+  });
+  resultCharts.push(chart);
+}
+
+function renderRecommendations(){
+  const r=state.result;
+  if(!r)return;
+  const list=showAllMatches?r.matches.slice(0,6):r.matches.slice(0,3);
+  $('#recommendations').innerHTML=list.map(c=>careerCard(c,true)).join('');
+  const toggleBtn=$('#toggleMoreMatches');
+  if(toggleBtn){
+    toggleBtn.textContent=showAllMatches?'Thu gọn còn Top 3 ↑':'Khám phá thêm 3 nghề phù hợp (Top 4–6) ↓';
+  }
+}
+
+function renderResults(){
+  const r=state.result;
+  if(!r)return;
+  destroyResultCharts();
+  $('#greeting').textContent=state.profile.nickname?`${state.profile.nickname}, đây là bức tranh khám phá của bạn.`:'Đây là bức tranh khám phá của bạn.';
+  
+  const archTitle=r.archetypeVn?`${r.archetype} · ${r.archetypeVn}`:r.archetype;
+  $('#archetype').textContent=archTitle;
+  const kwHtml=(r.archetypeKeywords||[]).map(k=>`<span class="tag">✦ ${esc(k)}</span>`).join(' ');
+  const adviceHtml=r.archetypeAdvice?`<span style="display:block;margin-top:8px;color:var(--ice);font-size:10px;line-height:1.7;"><strong>↗ Lời khuyên phát triển:</strong> ${esc(r.archetypeAdvice)}</span>`:'';
+  const kwWrap=kwHtml?`<div class="tags" style="margin-top:8px;">${kwHtml}</div>`:'';
+  $('#archetypeDesc').innerHTML=`${esc(r.archetypeDesc)}${kwWrap}${adviceHtml}`;
+
+  const pLabels=['Cởi mở','Tận tâm','Hướng ngoại','Hợp tác','Nhạy cảm cảm xúc'];
+  const pKeys=['openness','conscientiousness','extraversion','agreeableness','neuroticism'];
+  makeRadar('personalityChart',pLabels,pKeys.map(k=>r.personality[k]));
+  $('#personalityLegend').innerHTML=pKeys.map((k,i)=>`<span><i class="legend-dot dot-${i}"></i>${pLabels[i]} <b>${r.personality[k]}</b></span>`).join('');
+
+  const rKeys=['R','I','A','S','E','C'];
+  const rLabels=['Thực tế','Nghiên cứu','Nghệ thuật','Xã hội','Quản lý','Nghiệp vụ'];
+  makeRadar('interestChart',rLabels,rKeys.map(k=>r.interests[k]));
+  $('#interestLegend').innerHTML=rKeys.map((k,i)=>`<span><b>${k}</b> ${rLabels[i]} <em>${r.interests[k]}</em></span>`).join('');
+
+  const strengthEntries=Object.entries(r.strengthScores).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  if(window.Chart){
+    const c=new Chart($('#strengthChart'),{
+      type:'bar',
+      data:{
+        labels:strengthEntries.map(([k])=>strengthNames[k]),
+        datasets:[{
+          data:strengthEntries.map(([,v])=>v),
+          backgroundColor:['#a69cff','#8d9df4','#79b9df','#70c9ce','#a28bd8','#7c8dc2'],
+          borderRadius:7,
+          borderSkipped:false,
+          barThickness:13
+        }]
+      },
+      options:{
+        indexAxis:'y',
+        responsive:true,
+        maintainAspectRatio:false,
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:c=>` ${c.formattedValue}/100`}}
+        },
+        scales:{
+          x:{min:0,max:100,grid:{color:'rgba(255,255,255,.09)'},ticks:{color:'#8794ad',font:{size:9},stepSize:25}},
+          y:{grid:{display:false},ticks:{color:'#d6dced',font:{size:9}}}
+        }
+      }
+    });
+    resultCharts.push(c);
+  }
+
+  const values=Object.entries(r.valueScores).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  $('#valuesVisual').innerHTML=values.length?values.map(([k,v],i)=>`<div class="value-row"><span class="value-rank">0${i+1}</span><div class="value-main"><strong>${valueNames[k]||k}</strong><div class="value-track"><i style="width:${Math.max(8,v/Math.max(...values.map(x=>x[1]))*100)}%"></i></div></div><b>${v}</b></div>`).join(''):'<p class="fine">Chưa đủ dữ liệu để hiển thị.</p>';
+
+  const symbolMap={ANALYTICAL:['⌕','Phân tích'],CREATIVE:['✧','Sáng tạo'],SOCIAL:['◎','Hợp tác'],ORGANIZED:['▦','Tổ chức'],EXPERIMENTAL:['⚗','Thử nghiệm'],LEADERSHIP:['↗','Dẫn dắt'],ADAPTABILITY:['〰','Thích nghi'],RESEARCH:['⌘','Nghiên cứu']};
+  $('#scenarioVisual').innerHTML=r.topTags.length?r.topTags.map(([k,v])=>{const x=symbolMap[k]||['◇',tagNames[k]||k];return `<div class="symbol-item"><span>${x[0]}</span><strong>${x[1]}</strong><small>${v} lựa chọn</small></div>`}).join(''):'<p class="fine">Chưa có dữ liệu nổi bật.</p>';
+
+  $('#archetypeSymbol').textContent=archetypeIcons[r.archetypeCode]||archetypeIcons[r.archetype]||'✧';
+  $('#archetypeShort').textContent=r.archetype;
+  $('#archetypeMini').textContent=(r.archetypeKeywords||[]).join(' · ')||r.topInterests.slice(0,3).map(([k])=>riaNames[k]).join(' · ');
+
+  renderRecommendations();
+  $('#roadmapText').textContent=`Bạn có thể bắt đầu từ ${r.matches[0]?.name||'một lĩnh vực đang quan tâm'}: tìm hiểu chương trình học, thử dự án nhỏ và trò chuyện với người có trải nghiệm thực tế. Điểm số chỉ là gợi ý ban đầu, bạn hoàn toàn có thể rèn luyện thêm kỹ năng và tích lũy trải nghiệm mới theo thời gian.`;
+}
+
+function careerCard(c,score=false){
+  let breakdownHtml='';
+  let reasonHtml='';
+  if(score&&c.details){
+    breakdownHtml=`
+      <div class="match-breakdown">
+        <div class="breakdown-item"><small>Sở thích</small><b>${c.details.interest}</b></div>
+        <div class="breakdown-item"><small>Thế mạnh</small><b>${c.details.strength}</b></div>
+        <div class="breakdown-item"><small>Tính cách</small><b>${c.details.p}</b></div>
+        <div class="breakdown-item"><small>Giá trị</small><b>${c.details.valueFit}</b></div>
+      </div>`;
+    const primaryInterest=riaNames[c.riasec[0]]||c.riasec[0];
+    reasonHtml=`<div class="match-reason">✦ Tương thích cao với sở thích <b>${primaryInterest}</b>, năng lực tự đánh giá và môi trường làm việc <b>${catNames[c.category]||c.category}</b>.</div>`;
+  }
+  return `
+    <article class="career-card">
+      <div class="top">
+        <span>${c.id} · ${catNames[c.category]}</span>
+        ${score?`<span class="score">⭐ ${c.score}/100</span>`:''}
+      </div>
+      <h3>${esc(c.name)}</h3>
+      <p>${esc(c.description)}</p>
+      ${reasonHtml}
+      ${breakdownHtml}
+      <div class="codes">${c.riasec.map(x=>`<span>${x} · ${riaNames[x]}</span>`).join('')}</div>
+      <button data-career="${c.id}">Khám phá nghề này →</button>
+    </article>`;
+}
+
+function renderLibrary(){
+  if(!careers.length)return;
+  const q=($('#search')?.value||'').toLowerCase().trim(),cat=$('#filter')?.value||'all';
+  const list=careers.filter(c=>(cat==='all'||c.category===cat)&&[c.name,c.description,...c.skills,...c.subjects].join(' ').toLowerCase().includes(q));
+  $('#careerCount').textContent=`Hiển thị ${list.length} / ${careers.length} nghề nghiệp`;
+  $('#careerGrid').innerHTML=list.map(c=>careerCard(c)).join('')||'<div class="notice">Không tìm thấy nghề phù hợp.</div>';
+}
+
+function detail(id){
+  const c=careers.find(x=>x.id===id);
+  if(!c)return;
+  const active=$('.screen.active');
+  detailSourceScreen=(active&&active.id==='results')?'results':'library';
+  const backBtn=$('#detailBackBtn');
+  if(backBtn){
+    backBtn.textContent=detailSourceScreen==='results'?'← Quay lại kết quả khám phá':'← Quay lại thư viện nghề';
+  }
+  const block=(title,a)=>`<article class="detail-block"><h3>${title}</h3><ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></article>`;
+  $('#detailContent').innerHTML=`<div class="detail-head"><span class="eyebrow">${c.id} · ${catNames[c.category]}</span><h1>${esc(c.name)}</h1><p>Mã RIASEC: ${c.riasec.join(' – ')} (${c.riasec.map(k=>riaNames[k]).join(', ')})</p><p>${esc(c.description)}</p></div><div class="detail-grid">${block('Công việc thường ngày',c.responsibilities)}${block('Kỹ năng cần phát triển',c.skills)}${block('Môn học liên quan',c.subjects)}${block('Hướng học tập',c.education)}${block('Môi trường làm việc',c.environment)}${block('Điểm thuận lợi',c.advantages)}${block('Thách thức',c.challenges)}${block('Nhóm sở thích liên quan',c.riasec.map(k=>`${k} — ${riaNames[k]}`))}</div>`;
+  go('detail');
+}
+
+function renderLetter(){
+  const r=state.result;
+  if(!r){$('#letterText').innerHTML='<p>Hãy hoàn thành hành trình khám phá trước khi đọc lá thư này.</p>';return}
+  const name=esc(state.profile.nickname||'bạn'),skills=r.topStrengths.map(([k])=>strengthNames[k]).join(', '),career=r.matches.slice(0,3).map(c=>c.name).join(', ');
+  $('#letterText').innerHTML=`<p>Chào ${name},</p><p>Nếu bạn đang đọc những dòng này, có lẽ bạn vẫn đang trên hành trình tìm hiểu mình là ai và muốn trở thành người như thế nào. Mình muốn nhắc bạn rằng không cần phải có tất cả câu trả lời ngay hôm nay.</p><p>Qua những lựa chọn vừa rồi, bạn đã thể hiện sự quan tâm đến ${r.topInterests.slice(0,2).map(([k])=>riaNames[k].toLowerCase()).join(' và ')}. Bạn cũng tự tin ở một số năng lực như ${esc(skills)}. Hãy xem đó là manh mối để tiếp tục trải nghiệm, không phải chiếc nhãn cố định.</p><p>Một vài hướng nghề nghiệp bạn có thể tìm hiểu thêm là ${esc(career)}. Đừng chọn chúng chỉ vì một con số trên màn hình. Hãy đọc về công việc thật, thử dự án nhỏ, hỏi người có kinh nghiệm và quan sát xem hoạt động nào khiến bạn muốn học sâu hơn.</p><p>Sẽ có lúc bạn đổi ý. Điều đó không có nghĩa là bạn thất bại. Mỗi trải nghiệm giúp bạn hiểu rõ hơn điều mình coi trọng và điều mình muốn đóng góp.</p><p>Hãy tiếp tục tò mò, kiên nhẫn với quá trình học tập và cho bản thân cơ hội thử những con đường mới.</p>`;
+}
+
+function restart(){
+  if(!confirm('Bắt đầu lại? Câu trả lời và kết quả hiện tại sẽ bị xóa khỏi trình duyệt.'))return;
+  state={profile:state.profile||{},answers:{},current:0,result:null};
+  showAllMatches=false;
+  save();
+  profileStart();
+}
+
+function bind(){
+  $$('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
+  $$('[data-action="start"]').forEach(b=>b.onclick=profileStart);
+  
+  const backBtn=$('#detailBackBtn');
+  if(backBtn) backBtn.onclick=()=>go(detailSourceScreen);
+
+  const toggleBtn=$('#toggleMoreMatches');
+  if(toggleBtn) toggleBtn.onclick=()=>{
+    showAllMatches=!showAllMatches;
+    renderRecommendations();
+  };
+
+  window.addEventListener('keydown',handleQuizKeydown);
+
+  $('#profileForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    state.profile={nickname:$('#nickname').value.trim(),grade:$('#grade').value,age:$('#age').value,note:$('#note').value.trim(),subjects:$$('#subjects .selected').map(x=>x.textContent)};
+    save();
+    beginQuiz();
+  });
+
+  $$('#subjects .chip').forEach(b=>b.onclick=()=>b.classList.toggle('selected'));
+  $('#next').onclick=next;
+  $('#previous').onclick=prev;
+  $$('[data-action="exit"],[data-action="saveExit"]').forEach(b=>b.onclick=()=>{save();go('home');toast('Tiến độ đã được lưu trên trình duyệt.')});
+  $$('[data-action="restart"]').forEach(b=>b.onclick=restart);
+  $$('[data-action="print"]').forEach(b=>b.onclick=()=>window.print());
+  $('#search').addEventListener('input',renderLibrary);
+  $('#filter').addEventListener('change',renderLibrary);
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-career]');if(b)detail(b.dataset.career)});
+}
+
+function init(){
+  load();
+  questions = embeddedQuestions;
+  careers = embeddedCareers;
+  bind();
+  renderLibrary();
+  updateNavState();
+  if(state.result&&Object.keys(state.answers).length===50)renderResults();
+
+  const urlParams=new URLSearchParams(window.location.search);
+  const screenParam=urlParams.get('screen')||window.location.hash.replace('#','');
+  if(screenParam==='quiz'){
+    beginQuiz();
+  }else if(screenParam==='detail'){
+    detail(urlParams.get('id')||'IT01');
+  }else if(screenParam==='results'){
+    if(!state.result){
+      for(let i=0;i<50;i++){
+        const q=questions[i];
+        if(q.type==='likert')state.answers[q.id]=(i%4)+2;
+        else if(q.options&&q.options.length)state.answers[q.id]=q.options[0].id;
+      }
+      state.result=calculate();
+    }
+    go('results');
+  }else if(screenParam&&$('#'+screenParam)){
+    go(screenParam);
+  }
+}
+
+init();
+</script>
+</body>
+</html>
